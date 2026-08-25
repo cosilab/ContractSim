@@ -1,0 +1,17 @@
+==================================================
+  AGREED CONTRACT
+==================================================
+Parties: Customer and Caterer.
+Term: Weeks 1 through 11.
+Unit prices: Margherita Pizza $12; Pesto Pasta $5; Tomato Soup $3.
+Delivery obligations:
+Week 2: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 4: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 6: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 8: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 10: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+A shortfall is the amount by which a production week's delivery falls below its delivery obligation.
+Payments: Week 1 $28; Week 3 $42; Week 5 $50; Week 7 $10; Week 9 $30; Week 11 $40.
+Payment deduction: The Customer may reduce the next scheduled payment by the unit-price value of that production round's shortfall, to no less than $0; any deduction in excess of that payment is forfeited and does not carry to later payments; the deduction is final and creates no later repayment obligation. Absent a rollover clause, the Caterer need not make up the undelivered units. Two consecutive production weeks with a shortfall by the Caterer is a violation.
+Termination: Except as modified by the clauses above, a violation by a party entitles the counterparty to cease all further performance immediately and permanently.
+==================================================

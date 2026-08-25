@@ -1,0 +1,26 @@
+{
+  "contingencies": [
+    "payment_deduction",
+    "rollover",
+    "grim_trigger"
+  ],
+  "contingency_mode": "payment_deduction_rollover",
+  "contingency_params": {
+    "payment_deduction": {
+      "deduction_prices": {
+        "A": 10.0,
+        "B": 4.0,
+        "C": 3.0
+      }
+    },
+    "rollover": {
+      "max_deficit": 2
+    }
+  },
+  "contingency_variant": "payment_deduction_rollover",
+  "environment_id": 1,
+  "evaluation_environment_id": 1,
+  "schema_version": 1,
+  "source_band": "p050",
+  "source_environment_id": 3
+}

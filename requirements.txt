@@ -1,0 +1,14 @@
+# Numerical solver
+jax==0.11.1
+numpy==2.5.2
+
+# LLM agents and providers
+anthropic==1.0.0
+gdm-concordia==2.4.0
+google-genai==2.19.0
+openai==3.3.1
+
+# Analysis and figures
+matplotlib==3.11.1
+pandas==3.0.5
+scipy==1.18.1

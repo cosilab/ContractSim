@@ -1,0 +1,18 @@
+==================================================
+  AGREED CONTRACT
+==================================================
+Parties: Customer and Caterer.
+Term: Weeks 1 through 11.
+Unit prices: Margherita Pizza $10; Pesto Pasta $5; Tomato Soup $3.
+Delivery obligations:
+Week 2: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 4: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 6: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 8: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 10: 2 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+A shortfall is the amount by which a production week's delivery falls below its delivery obligation.
+Payments: Week 1 $11; Week 3 $129; Week 5 $0; Week 7 $30; Week 9 $10; Week 11 $0.
+Substitution: After delivering the non-substitutable minimum for each dish (1 Margherita Pizza, 1 Pesto Pasta, 1 Tomato Soup), the Caterer may substitute quantities delivered above those minimums at 1 Margherita Pizza = 2 Pesto Pastas = 4 Tomato Soups, but only if the substitution fully satisfies that production week's delivery obligation. Partial fulfilment via substitution receives no credit; any resulting shortfall is calculated from actual physical deliveries and handled under the contract's other applicable clauses.
+Rollover: A shortfall by the Caterer of no more than 2 units in each dish is added, dish by dish, to the next production week's delivery obligations to be cured. Carried shortfalls cannot be substituted. It is a violation if the shortfall in any dish exceeds 2 units, if the Caterer has a shortfall in two consecutive production weeks, or if a shortfall occurs in the final production week.
+Termination: Except as modified by the clauses above, a violation by a party entitles the counterparty to cease all further performance immediately and permanently.
+==================================================

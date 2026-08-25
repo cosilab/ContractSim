@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "environment_id": 3,
+  "environment_name": "env-03_moderate_current_cap20",
+  "random_seed": 42,
+  "axes": {
+    "operating_conditions": "moderate",
+    "customer_preference": "current",
+    "caterer_capital": "cap20"
+  },
+  "base_game": {
+    "schema_version": 1,
+    "benchmark": "ContractBench",
+    "currency": "USD",
+    "random_seed": 42,
+    "customer": {
+      "starting_budget": 200,
+      "outside_option_utility": 200,
+      "minimum_dishes_per_production_round": {
+        "A": 1,
+        "B": 1,
+        "C": 1
+      },
+      "minimum_dishes_are_non_substitutable": true
+    },
+    "schedule": {
+      "total_weeks": 11,
+      "payment_weeks": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "production_weeks": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "negotiation_max_rounds": 50
+    },
+    "dishes": {
+      "A": {
+        "name": "Margherita Pizza",
+        "soup_equivalents": 4
+      },
+      "B": {
+        "name": "Pesto Pasta",
+        "soup_equivalents": 2
+      },
+      "C": {
+        "name": "Tomato Soup",
+        "soup_equivalents": 1
+      }
+    },
+    "ingredients": {
+      "X": {
+        "name": "Mozzarella"
+      },
+      "Y": {
+        "name": "Basil"
+      },
+      "Z": {
+        "name": "Tomato"
+      }
+    },
+    "recipes": {
+      "A": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1
+      },
+      "B": {
+        "X": 1,
+        "Y": 1,
+        "Z": 0
+      },
+      "C": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1
+      }
+    },
+    "inventory": {
+      "initial_units": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "max_units_per_ingredient": 10,
+      "max_order_per_ingredient_per_round": 12,
+      "overflow_units_are_lost": true,
+      "orders_are_nonnegative_integers": true
+    },
+    "payments": {
+      "nonnegative_whole_dollars": true,
+      "refunds_available": false
+    },
+    "execution": {
+      "communication_available": false,
+      "renegotiation_available": false,
+      "production_round_order": [
+        "spoilage_of_carried_inventory",
+        "observe_current_prices",
+        "order_ingredients_and_apply_delivery",
+        "produce_and_deliver_dishes"
+      ]
+    },
+    "contingencies": {
+      "substitution_soup_equivalents": {
+        "A": 4,
+        "B": 2,
+        "C": 1
+      },
+      "supported": [
+        "substitution",
+        "payment_deduction",
+        "rollover",
+        "grim_trigger"
+      ]
+    }
+  },
+  "operating_conditions": {
+    "id": "moderate",
+    "label": "Moderate",
+    "axis": "operating_conditions",
+    "description": "Lower prices are more likely, delivery loss is capped at one quarter, and spoilage is at most one unit.",
+    "kernel_id": "operating-moderate-v1",
+    "prices": {
+      "independent_across_ingredients": true,
+      "observable_before_ordering": true,
+      "resampled_each_production_round": true,
+      "ingredients": {
+        "X": {
+          "name": "Mozzarella",
+          "outcomes": [
+            {
+              "value": 1,
+              "probability": 0.6666666666666666
+            },
+            {
+              "value": 3,
+              "probability": 0.3333333333333333
+            }
+          ]
+        },
+        "Y": {
+          "name": "Basil",
+          "outcomes": [
+            {
+              "value": 1,
+              "probability": 0.6666666666666666
+            },
+            {
+              "value": 2,
+              "probability": 0.3333333333333333
+            }
+          ]
+        },
+        "Z": {
+          "name": "Tomato",
+          "outcomes": [
+            {
+              "value": 2,
+              "probability": 0.6666666666666666
+            },
+            {
+              "value": 3,
+              "probability": 0.3333333333333333
+            }
+          ]
+        }
+      }
+    },
+    "delivery": {
+      "distribution": "discrete_uniform",
+      "minimum_received": "floor(3*ordered/4)",
+      "maximum_received": "ordered",
+      "support_is_inclusive": true,
+      "pays_for": "ordered"
+    },
+    "spoilage": {
+      "independent_across_ingredients": true,
+      "applies_to": "inventory_carried_from_the_previous_production_round",
+      "outcomes": [
+        {
+          "units_lost": 0,
+          "probability": 0.5
+        },
+        {
+          "units_lost": 1,
+          "probability": 0.5
+        }
+      ]
+    },
+    "prompt_text": "ENVIRONMENT STOCHASTICITY: (a) Prices: each production round, each ingredient price is independently set to its lower value with probability 2/3 and its higher value with probability 1/3 — Mozzarella $1 or $3/unit, Basil $1 or $2/unit, Tomato $2 or $3/unit. (b) Delivery loss: for each ingredient, if you order x units you receive between floor(3x/4) and x units (uniformly at random). You pay for the full amount ordered, not the amount received. For example, ordering 6 Mozzarella means you pay for 6 but receive 4, 5, or 6 with equal chance. (c) Spoilage: inventory carried over from the previous production round independently loses 0 or 1 unit per ingredient per production round (equal probability, 1/2 each). Spoilage happens before you order new ingredients. (d) Inventory cap: you can store at most 10 units of each ingredient. Any received units that would exceed this cap are lost — you still pay for them. This cap applies before production, so you cannot order beyond capacity to use the surplus in the same round. Maximum order: 12 units of each ingredient per production round.",
+    "prompt_production_process_negotiation": "PRODUCTION WEEK PROCESS (in order): (1) inventory spoilage occurs, (2) you order ingredients (delivery loss applies), (3) you produce dishes and deliver them, (4) prices are re-randomized for next production round.",
+    "prompt_production_process_performance": "PRODUCTION WEEK PROCESS (in order): (1) random inventory spoilage occurs, (2) you order ingredients (random delivery loss applies), (3) you produce dishes and deliver them, (4) prices are re-randomized for next production round."
+  },
+  "customer_preference": {
+    "id": "current",
+    "label": "Current",
+    "axis": "customer_preference",
+    "description": "The current workshopped ContractBench customer private values.",
+    "private_values": {
+      "A": 12,
+      "B": 6,
+      "C": 3
+    },
+    "substitution_soup_equivalents": {
+      "A": 4,
+      "B": 2,
+      "C": 1
+    },
+    "substitution_matches_private_values": true,
+    "prompt_private_values_negotiation": "PRIVATE VALUATION: You privately value each Margherita Pizza at $12, each Pesto Pasta at $6, and each Tomato Soup at $3. These are your maximum per-unit valuations. You are willing to pay up to these amounts for each dish, but you prefer to save money.",
+    "prompt_private_values_performance": "PRIVATE VALUATION: You privately value each Margherita Pizza at $12, each Pesto Pasta at $6, and each Tomato Soup at $3.",
+    "prompt_substitution": "DISH SUBSTITUTABILITY: For any quantities ABOVE the minimum, dishes are substitutable at the rate: 1 Pizza = 2 Pastas = 4 Soups (equivalently, 1 Pasta = 2 Soups). For example, if you wanted 2 Pizzas but the caterer can only make the 1 minimum, the extra Pizza can be replaced by 2 Pastas or 4 Soups. The same logic applies to Pastas too."
+  },
+  "caterer_capital": {
+    "id": "cap20",
+    "label": "$20",
+    "axis": "caterer_capital",
+    "starting_balance": 20,
+    "customer_budget": 200,
+    "max_reachable_balance": 220,
+    "budget_state_min": 0,
+    "budget_state_max": 220,
+    "n_budget_states": 221,
+    "prompt_text": "Your initial operating capital is $20."
+  },
+  "solver_overrides": {
+    "PRICE_DISTRIBUTIONS": {
+      "X": {
+        "name": "Mozzarella",
+        "outcomes": [
+          {
+            "value": 1,
+            "probability": 0.6666666666666666
+          },
+          {
+            "value": 3,
+            "probability": 0.3333333333333333
+          }
+        ]
+      },
+      "Y": {
+        "name": "Basil",
+        "outcomes": [
+          {
+            "value": 1,
+            "probability": 0.6666666666666666
+          },
+          {
+            "value": 2,
+            "probability": 0.3333333333333333
+          }
+        ]
+      },
+      "Z": {
+        "name": "Tomato",
+        "outcomes": [
+          {
+            "value": 2,
+            "probability": 0.6666666666666666
+          },
+          {
+            "value": 3,
+            "probability": 0.3333333333333333
+          }
+        ]
+      }
+    },
+    "DELIVERY_MINIMUM_RECEIVED": "floor(3*ordered/4)",
+    "SPOILAGE_DISTRIBUTION": [
+      {
+        "units_lost": 0,
+        "probability": 0.5
+      },
+      {
+        "units_lost": 1,
+        "probability": 0.5
+      }
+    ],
+    "CUSTOMER_PRIVATE_VALUE": {
+      "A": 12,
+      "B": 6,
+      "C": 3
+    },
+    "SOUP_EQUIVALENTS": {
+      "A": 4,
+      "B": 2,
+      "C": 1
+    },
+    "CUSTOMER_STARTING_BUDGET": 200,
+    "starting_balance": 20,
+    "N_BUD": 221,
+    "MAX_INV": 10,
+    "MAX_ORD": 12
+  },
+  "probability_kernel": {
+    "kernel_id": "operating-moderate-v1",
+    "shared_by_environment_ids": [
+      3,
+      4
+    ],
+    "artifact_keys": [
+      "DELIVERY_TABLE",
+      "SPOILAGE_TABLE",
+      "PRICE_RANGES",
+      "PRICE_PROB"
+    ]
+  },
+  "source_components": {
+    "base": "../shared/base.json",
+    "operating_conditions": "../shared/operating-conditions/moderate.json",
+    "customer_preference": "../shared/customer-preferences/current.json",
+    "caterer_capital": "../shared/caterer-capital/cap20.json"
+  }
+}

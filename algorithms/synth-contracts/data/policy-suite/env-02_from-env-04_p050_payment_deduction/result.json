@@ -1,0 +1,68 @@
+{
+  "contingencies": [
+    "payment_deduction",
+    "grim_trigger"
+  ],
+  "contingency_mode": "payment_deduction",
+  "contingency_params": {
+    "payment_deduction": {
+      "deduction_prices": {
+        "A": 7.0,
+        "B": 4.0,
+        "C": 4.0
+      }
+    }
+  },
+  "contingency_variant": "payment_deduction",
+  "environment_id": 2,
+  "evaluation_environment_id": 2,
+  "evaluation_metrics": {
+    "E_customer_utility": 285.0,
+    "E_supplier_utility": 125.0,
+    "P_sat": 1.0
+  },
+  "instance_id": "env-02_from-env-04_p050_payment_deduction",
+  "schema_version": 1,
+  "source_band": "p050",
+  "source_environment_id": 4,
+  "source_generation_metrics": {
+    "E_customer_utility": 321.0443420410156,
+    "E_supplier_utility": 8.144441604614258,
+    "P_sat": 0.5499701499938965,
+    "band_met": true,
+    "candidate": {
+      "payments": [
+        40,
+        0,
+        17,
+        122,
+        5,
+        6
+      ],
+      "prices": [
+        7,
+        4,
+        4
+      ],
+      "quantities": [
+        2,
+        4,
+        2
+      ]
+    },
+    "mutual_benefit_floors": {
+      "customer": 200.0,
+      "supplier": 0.0
+    },
+    "mutual_benefit_met": true,
+    "p_sat_band": {
+      "lower": 0.45,
+      "upper": 0.55,
+      "upper_inclusive": false
+    },
+    "satisfaction_threshold": 0.95,
+    "status": "accepted",
+    "target_p_sat": 0.5,
+    "welfare": 329.1887836456299
+  }
+}

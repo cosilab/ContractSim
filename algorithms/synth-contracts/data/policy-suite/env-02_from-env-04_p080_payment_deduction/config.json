@@ -1,0 +1,22 @@
+{
+  "contingencies": [
+    "payment_deduction",
+    "grim_trigger"
+  ],
+  "contingency_mode": "payment_deduction",
+  "contingency_params": {
+    "payment_deduction": {
+      "deduction_prices": {
+        "A": 6.0,
+        "B": 10.0,
+        "C": 5.0
+      }
+    }
+  },
+  "contingency_variant": "payment_deduction",
+  "environment_id": 2,
+  "evaluation_environment_id": 2,
+  "schema_version": 1,
+  "source_band": "p080",
+  "source_environment_id": 4
+}

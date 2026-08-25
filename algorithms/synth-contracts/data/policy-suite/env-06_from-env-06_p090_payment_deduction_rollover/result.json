@@ -1,0 +1,72 @@
+{
+  "contingencies": [
+    "payment_deduction",
+    "rollover",
+    "grim_trigger"
+  ],
+  "contingency_mode": "payment_deduction_rollover",
+  "contingency_params": {
+    "payment_deduction": {
+      "deduction_prices": {
+        "A": 12.0,
+        "B": 5.0,
+        "C": 3.0
+      }
+    },
+    "rollover": {
+      "max_deficit": 2
+    }
+  },
+  "contingency_variant": "payment_deduction_rollover",
+  "environment_id": 6,
+  "evaluation_environment_id": 6,
+  "evaluation_metrics": {
+    "E_customer_utility": 348.9382629394531,
+    "E_supplier_utility": 20.357749938964844,
+    "P_sat": 0.9643242955207825
+  },
+  "instance_id": "env-06_from-env-06_p090_payment_deduction_rollover",
+  "schema_version": 1,
+  "source_band": "p090",
+  "source_environment_id": 6,
+  "source_generation_metrics": {
+    "E_customer_utility": 335.5218505859375,
+    "E_supplier_utility": 18.649919509887695,
+    "P_sat": 0.9499524235725403,
+    "band_met": true,
+    "candidate": {
+      "payments": [
+        39,
+        40,
+        31,
+        31,
+        40,
+        19
+      ],
+      "prices": [
+        12,
+        5,
+        3
+      ],
+      "quantities": [
+        2,
+        2,
+        2
+      ]
+    },
+    "mutual_benefit_floors": {
+      "customer": 200.0,
+      "supplier": 0.0
+    },
+    "mutual_benefit_met": true,
+    "p_sat_band": {
+      "lower": 0.85,
+      "upper": 0.95,
+      "upper_inclusive": true
+    },
+    "satisfaction_threshold": 0.95,
+    "status": "accepted",
+    "target_p_sat": 0.9,
+    "welfare": 354.1717700958252
+  }
+}

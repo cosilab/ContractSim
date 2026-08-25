@@ -1,0 +1,1 @@
+Perform the contract with the supplier, choosing how much you wish to pay the supplier in every payment week. Aim to perform the contract in a way that maximizes your private utility.

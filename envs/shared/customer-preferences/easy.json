@@ -1,0 +1,12 @@
+{
+  "id": "easy",
+  "label": "Easy",
+  "axis": "customer_preference",
+  "description": "An easier customer-preference profile with higher private values than the current profile.",
+  "private_values": {"A": 20, "B": 10, "C": 5},
+  "substitution_soup_equivalents": {"A": 4, "B": 2, "C": 1},
+  "substitution_matches_private_values": true,
+  "prompt_private_values_negotiation": "PRIVATE VALUATION: You privately value each Margherita Pizza at $20, each Pesto Pasta at $10, and each Tomato Soup at $5. These are your maximum per-unit valuations. You are willing to pay up to these amounts for each dish, but you prefer to save money.",
+  "prompt_private_values_performance": "PRIVATE VALUATION: You privately value each Margherita Pizza at $20, each Pesto Pasta at $10, and each Tomato Soup at $5.",
+  "prompt_substitution": "DISH SUBSTITUTABILITY: For any quantities ABOVE the minimum, dishes are substitutable at the rate: 1 Pizza = 2 Pastas = 4 Soups (equivalently, 1 Pasta = 2 Soups). For example, if you wanted 2 Pizzas but the caterer can only make the 1 minimum, the extra Pizza can be replaced by 2 Pastas or 4 Soups. The same logic applies to Pastas too."
+}

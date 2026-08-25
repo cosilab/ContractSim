@@ -1,0 +1,18 @@
+{
+  "contingencies": [
+    "rollover",
+    "grim_trigger"
+  ],
+  "contingency_mode": "rollover",
+  "contingency_params": {
+    "rollover": {
+      "max_deficit": 2
+    }
+  },
+  "contingency_variant": "rollover",
+  "environment_id": 1,
+  "evaluation_environment_id": 1,
+  "schema_version": 1,
+  "source_band": "p050",
+  "source_environment_id": 3
+}

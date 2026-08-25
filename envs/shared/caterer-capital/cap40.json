@@ -1,0 +1,12 @@
+{
+  "id": "cap40",
+  "label": "$40",
+  "axis": "caterer_capital",
+  "starting_balance": 40,
+  "customer_budget": 200,
+  "max_reachable_balance": 240,
+  "budget_state_min": 0,
+  "budget_state_max": 240,
+  "n_budget_states": 241,
+  "prompt_text": "Your initial operating capital is $40."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "benchmark": "ContractBench",
+  "grid": "six-environment-subset",
+  "seed": 42,
+  "axis_order": [
+    "operating_conditions",
+    "customer_preference",
+    "caterer_capital"
+  ],
+  "environments": [
+    {"id": 1, "operating_conditions": "benign", "customer_preference": "current", "caterer_capital": "cap20"},
+    {"id": 2, "operating_conditions": "benign", "customer_preference": "easy", "caterer_capital": "cap40"},
+    {"id": 3, "operating_conditions": "moderate", "customer_preference": "current", "caterer_capital": "cap20"},
+    {"id": 4, "operating_conditions": "moderate", "customer_preference": "easy", "caterer_capital": "cap40"},
+    {"id": 5, "operating_conditions": "baseline", "customer_preference": "current", "caterer_capital": "cap20"},
+    {"id": 6, "operating_conditions": "baseline", "customer_preference": "easy", "caterer_capital": "cap40"}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "benign",
+  "label": "Benign",
+  "axis": "operating_conditions",
+  "description": "Deterministic, favorable ingredient prices with no delivery loss and no spoilage.",
+  "kernel_id": "operating-benign-v1",
+  "prices": {
+    "independent_across_ingredients": true,
+    "observable_before_ordering": true,
+    "resampled_each_production_round": false,
+    "ingredients": {
+      "X": {"name": "Mozzarella", "outcomes": [{"value": 1, "probability": 1.0}]},
+      "Y": {"name": "Basil", "outcomes": [{"value": 1, "probability": 1.0}]},
+      "Z": {"name": "Tomato", "outcomes": [{"value": 2, "probability": 1.0}]}
+    }
+  },
+  "delivery": {
+    "distribution": "discrete_uniform",
+    "minimum_received": "ordered",
+    "maximum_received": "ordered",
+    "support_is_inclusive": true,
+    "pays_for": "ordered"
+  },
+  "spoilage": {
+    "independent_across_ingredients": true,
+    "applies_to": "inventory_carried_from_the_previous_production_round",
+    "outcomes": [{"units_lost": 0, "probability": 1.0}]
+  },
+  "prompt_text": "ENVIRONMENT CONDITIONS: (a) Prices: ingredient prices are fixed in every production round — Mozzarella $1/unit, Basil $1/unit, Tomato $2/unit. (b) Delivery loss: there is no delivery loss; for each ingredient, if you order x units you receive x units. You pay for the full amount ordered. For example, ordering 6 Mozzarella means you pay for 6 and receive 6. (c) Spoilage: inventory carried over from the previous production round loses 0 units per ingredient per production round. (d) Inventory cap: you can store at most 10 units of each ingredient. Any received units that would exceed this cap are lost — you still pay for them. This cap applies before production, so you cannot order beyond capacity to use the surplus in the same round. Maximum order: 12 units of each ingredient per production round.",
+  "prompt_production_process_negotiation": "PRODUCTION WEEK PROCESS (in order): (1) no inventory spoilage occurs, (2) you order ingredients (there is no delivery loss), (3) you produce dishes and deliver them, (4) prices remain fixed for the next production round.",
+  "prompt_production_process_performance": "PRODUCTION WEEK PROCESS (in order): (1) no inventory spoilage occurs, (2) you order ingredients (there is no delivery loss), (3) you produce dishes and deliver them, (4) prices remain fixed for the next production round."
+}

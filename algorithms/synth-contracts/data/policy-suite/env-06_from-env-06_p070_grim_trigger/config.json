@@ -1,0 +1,13 @@
+{
+  "contingencies": [
+    "grim_trigger"
+  ],
+  "contingency_mode": "grim_trigger",
+  "contingency_params": {},
+  "contingency_variant": "grim_trigger",
+  "environment_id": 6,
+  "evaluation_environment_id": 6,
+  "schema_version": 1,
+  "source_band": "p070",
+  "source_environment_id": 6
+}

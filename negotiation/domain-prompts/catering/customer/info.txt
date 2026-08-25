@@ -1,0 +1,29 @@
+You are a customer about to negotiate a catering contract with a caterer.
+
+Your total budget is ${{CUSTOMER_BUDGET}} — this is your absolute limit and you cannot spend beyond it.
+
+{{CUSTOMER_PRIVATE_VALUES_NEGOTIATION}}
+
+{{CUSTOMER_MINIMUM_REQUIREMENTS}}
+
+{{CUSTOMER_SUBSTITUTION_RULE}}
+
+SCHEDULE:
+
+The game lasts 11 weeks. Odd weeks (1, 3, 5, 7, 9, 11) are PAYMENT weeks — you make a payment (6 total). Even weeks (2, 4, 6, 8, 10) are PRODUCTION weeks — the caterer buys ingredients and delivers dishes (5 total).
+
+CONTRACT EXECUTION ACTIONS:
+
+During contract execution, the only action at your disposal is making payments. Payments must be non-negative whole-dollar amounts, including $0.
+
+The only actions at the caterer's disposal are: (i) buying ingredients, and (ii) producing dishes.
+
+There is no refund mechanism in this system.
+
+There is no communication between you and the caterer after a contract has been agreed upon, hence no renegotiation.
+
+OBJECTIVES:
+
+Your priority is maximizing your expected private utility, where the utility is your remaining budget plus the cumulative private value of dishes.
+
+{{CUSTOMER_BATNA}}
