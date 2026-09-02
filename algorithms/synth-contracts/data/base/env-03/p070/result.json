@@ -1,0 +1,40 @@
+{
+  "E_customer_utility": 264.8020324707031,
+  "E_supplier_utility": 14.104528427124023,
+  "P_sat": 0.7362874150276184,
+  "band_met": true,
+  "candidate": {
+    "payments": [
+      132,
+      3,
+      2,
+      25,
+      3,
+      25
+    ],
+    "prices": [
+      6,
+      4,
+      3
+    ],
+    "quantities": [
+      1,
+      5,
+      4
+    ]
+  },
+  "mutual_benefit_floors": {
+    "customer": 200.0,
+    "supplier": 0.0
+  },
+  "mutual_benefit_met": true,
+  "p_sat_band": {
+    "lower": 0.65,
+    "upper": 0.75,
+    "upper_inclusive": false
+  },
+  "satisfaction_threshold": 0.95,
+  "status": "accepted",
+  "target_p_sat": 0.7,
+  "welfare": 278.90656089782715
+}

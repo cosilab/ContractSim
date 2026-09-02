@@ -1,0 +1,205 @@
+{
+  "environment_id": 3,
+  "results": [
+    {
+      "E_customer_utility": 250.36904907226562,
+      "E_supplier_utility": 19.013051986694336,
+      "P_sat": 0.54912269115448,
+      "band_met": true,
+      "candidate": {
+        "payments": [
+          37,
+          35,
+          24,
+          28,
+          27,
+          49
+        ],
+        "prices": [
+          6,
+          5,
+          2
+        ],
+        "quantities": [
+          1,
+          6,
+          2
+        ]
+      },
+      "mutual_benefit_floors": {
+        "customer": 200.0,
+        "supplier": 0.0
+      },
+      "mutual_benefit_met": true,
+      "p_sat_band": {
+        "lower": 0.45,
+        "upper": 0.55,
+        "upper_inclusive": false
+      },
+      "satisfaction_threshold": 0.95,
+      "status": "accepted",
+      "target_p_sat": 0.5,
+      "welfare": 269.38210105895996
+    },
+    {
+      "E_customer_utility": 223.89727020263672,
+      "E_supplier_utility": 26.290246963500977,
+      "P_sat": 0.6499342322349548,
+      "band_met": true,
+      "candidate": {
+        "payments": [
+          10,
+          31,
+          30,
+          29,
+          50,
+          20
+        ],
+        "prices": [
+          9,
+          5,
+          3
+        ],
+        "quantities": [
+          2,
+          2,
+          2
+        ]
+      },
+      "mutual_benefit_floors": {
+        "customer": 200.0,
+        "supplier": 0.0
+      },
+      "mutual_benefit_met": true,
+      "p_sat_band": {
+        "lower": 0.55,
+        "upper": 0.65,
+        "upper_inclusive": false
+      },
+      "satisfaction_threshold": 0.95,
+      "status": "accepted",
+      "target_p_sat": 0.6,
+      "welfare": 250.1875171661377
+    },
+    {
+      "E_customer_utility": 264.8020324707031,
+      "E_supplier_utility": 14.104528427124023,
+      "P_sat": 0.7362874150276184,
+      "band_met": true,
+      "candidate": {
+        "payments": [
+          132,
+          3,
+          2,
+          25,
+          3,
+          25
+        ],
+        "prices": [
+          6,
+          4,
+          3
+        ],
+        "quantities": [
+          1,
+          5,
+          4
+        ]
+      },
+      "mutual_benefit_floors": {
+        "customer": 200.0,
+        "supplier": 0.0
+      },
+      "mutual_benefit_met": true,
+      "p_sat_band": {
+        "lower": 0.65,
+        "upper": 0.75,
+        "upper_inclusive": false
+      },
+      "satisfaction_threshold": 0.95,
+      "status": "accepted",
+      "target_p_sat": 0.7,
+      "welfare": 278.90656089782715
+    },
+    {
+      "E_customer_utility": 232.47657775878906,
+      "E_supplier_utility": 49.001590728759766,
+      "P_sat": 0.8437542915344238,
+      "band_met": true,
+      "candidate": {
+        "payments": [
+          47,
+          2,
+          77,
+          55,
+          0,
+          19
+        ],
+        "prices": [
+          11,
+          4,
+          3
+        ],
+        "quantities": [
+          2,
+          3,
+          2
+        ]
+      },
+      "mutual_benefit_floors": {
+        "customer": 200.0,
+        "supplier": 0.0
+      },
+      "mutual_benefit_met": true,
+      "p_sat_band": {
+        "lower": 0.75,
+        "upper": 0.85,
+        "upper_inclusive": false
+      },
+      "satisfaction_threshold": 0.95,
+      "status": "accepted",
+      "target_p_sat": 0.8,
+      "welfare": 281.4781684875488
+    },
+    {
+      "E_customer_utility": 325.11785888671875,
+      "E_supplier_utility": 8.704331398010254,
+      "P_sat": 0.9394548535346985,
+      "band_met": true,
+      "candidate": {
+        "payments": [
+          81,
+          57,
+          22,
+          25,
+          15,
+          0
+        ],
+        "prices": [
+          6,
+          5,
+          3
+        ],
+        "quantities": [
+          4,
+          2,
+          2
+        ]
+      },
+      "mutual_benefit_floors": {
+        "customer": 200.0,
+        "supplier": 0.0
+      },
+      "mutual_benefit_met": true,
+      "p_sat_band": {
+        "lower": 0.85,
+        "upper": 0.95,
+        "upper_inclusive": true
+      },
+      "satisfaction_threshold": 0.95,
+      "status": "accepted",
+      "target_p_sat": 0.9,
+      "welfare": 333.822190284729
+    }
+  ]
+}

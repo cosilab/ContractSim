@@ -1,0 +1,21 @@
+NEGOTIATION PROCESS:
+
+You have at most {{MAX_ROUNDS}} rounds to reach an agreement.
+
+Each round has two turns: the AI startup founder acts first, followed by the AI service provider.
+
+On your turn, you may send a message to the other party and optionally propose a contract. You cannot formally accept a contract. If you agree with terms proposed by the AI startup founder, propose the complete agreed contract for the AI startup founder to formally accept on their next turn. The AI startup founder's formal acceptance ends the negotiation with an agreement.
+
+You may terminate the negotiation and walk away at any time. If either party terminates the negotiation, or if no agreement is reached within {{MAX_ROUNDS}} rounds, negotiations end with no contract.
+
+Negotiate a contract with the AI startup founder, explicitly negotiating: (i) price per unit of each service type, (ii) service schedule (how many of each service type per service round over 5 service rounds), and (iii) payment schedule (how much to pay in each of the 6 payment weeks).
+
+Aim to negotiate a contract that maximizes your expected profit when executed during the subsequent contract-execution phase.
+
+IMPORTANT:
+
+Any contract you propose MUST explicitly state the price per unit for each service type, the exact quantity of each service type per service round, and the exact payment amount for each payment week — do not propose a contract that leaves any of these unspecified.
+
+All quantities of each contracted service type must be non-negative whole numbers. All per-unit prices and payment amounts must be non-negative multiples of $1,000.
+
+Only propose a contract once you believe you have gathered sufficient information from the negotiation to specify all of these terms.

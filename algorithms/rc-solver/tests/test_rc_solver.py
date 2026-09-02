@@ -120,6 +120,74 @@ class ModularSolverTests(unittest.TestCase):
         self.assertIs(solver.transition_runtime, transition_runtime)
         self.assertEqual(set(transition_runtime.kernels_by_need), {1, 2})
 
+    def test_saved_policy_forward_trace_matches_customer_utility(self):
+        environment_source = single_resource_environment()
+        environment_source["base_game"]["inventory"][
+            "max_order_per_ingredient_per_round"
+        ] = 1
+        solver = RCCSolver(Environment(environment_source))
+        contract = Contract(contract_source([1, 1], [0, 0, 0]))
+
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            policy_path = Path(temporary_directory) / "policy.npz"
+            result = solver.solve(
+                contract,
+                satisfaction_threshold=0.9,
+                policy_path=policy_path,
+            )
+            with np.load(policy_path, allow_pickle=False) as saved:
+                policies = np.asarray(saved["policies"])
+
+        transitions = solver.transition_runtime.for_contract(contract)
+        probability_mass = np.zeros((2, 8), dtype=np.float64)
+        probability_mass[0, 2] = 1.0
+        survival_probabilities = []
+        for round_index, (payment, production) in enumerate(zip(
+            contract.payment_schedule,
+            contract.production_schedule,
+        )):
+            success_table = transitions.for_week(
+                production.week
+            ).kernels_by_resource["X"].successful_table
+            next_mass = np.zeros_like(probability_mass)
+            for inventory, capital in np.ndindex(probability_mass.shape):
+                order = int(policies[round_index, inventory, capital, 0, 0])
+                next_capital = min(
+                    capital + int(payment.amount) - order,
+                    probability_mass.shape[1] - 1,
+                )
+                if next_capital < 0:
+                    continue
+                next_mass[:, next_capital] += (
+                    probability_mass[inventory, capital]
+                    * success_table[inventory, order]
+                )
+            probability_mass = next_mass
+            survival_probabilities.append(float(probability_mass.sum()))
+
+        round_values = [
+            sum(
+                quantity * solver.environment.customer.private_values[product]
+                for product, quantity in production.product_quantities.items()
+            )
+            for production in contract.production_schedule
+        ]
+        traced_customer_value = sum(
+            probability * value
+            for probability, value in zip(survival_probabilities, round_values)
+        )
+
+        # Each round succeeds with probability 0.5, so completed-round value is
+        # 12 * 0.5 + 12 * 0.25 = 9 rather than 24 * 0.25 = 6.
+        np.testing.assert_allclose(survival_probabilities, [0.5, 0.25])
+        self.assertAlmostEqual(traced_customer_value, 9.0)
+        self.assertAlmostEqual(result["P_sat"], 0.25)
+        self.assertAlmostEqual(result["E_supplier_utility"], -1.5)
+        self.assertAlmostEqual(
+            result["E_customer_utility"],
+            solver.environment.customer.starting_budget + traced_customer_value,
+        )
+
     def test_cli_solves_one_round_and_reports_three_values(self):
         environment = single_resource_environment()
         result = run_solver(

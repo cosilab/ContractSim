@@ -103,12 +103,10 @@ def _contract_dirs(
     if not root.is_dir():
         raise RuntimeError(f"contracts root is not a directory: {root}")
     candidates = sorted(
-        path
-        for path in root.iterdir()
-        if path.is_dir()
-        and (path / "contract.txt").is_file()
-        and (path / "terms.json").is_file()
-        and (path / "config.json").is_file()
+        config_path.parent
+        for config_path in root.rglob("config.json")
+        if (config_path.parent / "contract.txt").is_file()
+        and (config_path.parent / "terms.json").is_file()
     )
 
     def included_in_batch(path: Path) -> bool:

@@ -1,0 +1,1 @@
+Perform the contract with the AI startup founder, choosing how many resources of each kind to reserve and how many services of each type to provide. Aim to perform the contract in a way that maximizes your profit.

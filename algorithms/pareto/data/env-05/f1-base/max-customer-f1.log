@@ -1,0 +1,26 @@
+Starting env 5 max-customer; checkpoint=/home/bhavyesh/ContractSim/algorithms/pareto/data/env-05/f1-base/max-customer-f1.checkpoint.json; output=/home/bhavyesh/ContractSim/algorithms/pareto/data/env-05/f1-base/max-customer-f1.json
+[epsilon 1/10 value=-40] start 1/3 constraint_met=False score=None
+[epsilon 1/10 value=-40] start 2/3 constraint_met=False score=None
+[epsilon 1/10 value=-40] start 3/3 constraint_met=True score=227.4742889404297
+[epsilon 2/10 value=-30] start 1/3 constraint_met=True score=227.48382568359375
+[epsilon 2/10 value=-30] start 2/3 constraint_met=False score=None
+[epsilon 3/10 value=-20] start 1/3 constraint_met=True score=227.48919677734375
+[epsilon 3/10 value=-20] start 2/3 constraint_met=True score=227.48919677734375
+[epsilon 4/10 value=-10] start 1/3 constraint_met=True score=227.48919677734375
+[epsilon 4/10 value=-10] start 2/3 constraint_met=True score=213.6243438720703
+[epsilon 5/10 value=0] start 1/3 constraint_met=True score=227.48919677734375
+[epsilon 5/10 value=0] start 2/3 constraint_met=False score=None
+[epsilon 6/10 value=10] start 1/3 constraint_met=True score=227.48919677734375
+[epsilon 6/10 value=10] start 2/3 constraint_met=True score=204.24778747558594
+[epsilon 7/10 value=20] start 1/3 constraint_met=True score=223.0081787109375
+[epsilon 7/10 value=20] start 2/3 constraint_met=False score=None
+[epsilon 8/10 value=30] start 1/3 constraint_met=False score=-999979.341659668
+[epsilon 8/10 value=30] start 2/3 constraint_met=False score=None
+[epsilon 8/10 value=30] start 3/3 constraint_met=False score=None
+[epsilon 9/10 value=40] start 1/3 constraint_met=False score=-999979.341659668
+[epsilon 9/10 value=40] start 2/3 constraint_met=False score=None
+[epsilon 9/10 value=40] start 3/3 constraint_met=False score=None
+[epsilon 10/10 value=50] start 1/3 constraint_met=False score=-999979.341659668
+[epsilon 10/10 value=50] start 2/3 constraint_met=False score=-999966.6071152649
+[epsilon 10/10 value=50] start 3/3 constraint_met=False score=None
+Saved 10 max-customer F1 candidates to /home/bhavyesh/ContractSim/algorithms/pareto/data/env-05/f1-base/max-customer-f1.json

@@ -85,11 +85,23 @@ class PerformanceActionTests(unittest.TestCase):
 
         purchase = supplier_decide_purchases(game, 2, supplier)
         self.assertEqual(purchase, {"X": 2, "Y": 2, "Z": 2})
-        game.apply_purchase(purchase)
-        production = supplier_decide_production(game, 2, supplier)
+        _cost, _ordered, received = game.apply_purchase(purchase)
+        production = supplier_decide_production(
+            game,
+            2,
+            supplier,
+            received=received,
+        )
         self.assertEqual(production, {"A": 1, "B": 1, "C": 1})
         self.assertIn("Market prices", supplier.calls[0])
-        self.assertIn("Inventory", supplier.calls[1])
+        self.assertIn(
+            "Order received: 2 Mozzarella, 2 Basil, 2 Tomato",
+            supplier.calls[1],
+        )
+        self.assertIn(
+            "Updated inventory (after cap): 2 Mozzarella, 2 Basil, 2 Tomato",
+            supplier.calls[1],
+        )
 
 
 if __name__ == "__main__":

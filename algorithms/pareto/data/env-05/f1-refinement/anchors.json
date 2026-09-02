@@ -1,0 +1,189 @@
+{
+  "anchor_count": 2,
+  "anchors": [
+    {
+      "E_customer_utility": 213.10975646972656,
+      "E_supplier_utility": 27.6361083984375,
+      "P_sat": 0.977438747882843,
+      "accepted_final_record_ids": [
+        "env-09/run-3/openai_vs_anthropic/offer-0022"
+      ],
+      "anchor_id": "18f9f748e1b13a8385d0f2940ebac465b4cb4e148b452c9ab4a69bc3d808333d",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 95.0,
+            "week": 1
+          },
+          {
+            "amount": 50.0,
+            "week": 3
+          },
+          {
+            "amount": 25.0,
+            "week": 5
+          },
+          {
+            "amount": 15.0,
+            "week": 7
+          },
+          {
+            "amount": 9.0,
+            "week": 9
+          },
+          {
+            "amount": 5.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 11.0,
+          "B": 6.0,
+          "C": 3.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "18f9f748e1b13a8385d0f2940ebac465b4cb4e148b452c9ab4a69bc3d808333d"
+    },
+    {
+      "E_customer_utility": 206.07089233398438,
+      "E_supplier_utility": 26.269533157348633,
+      "P_sat": 0.982867956161499,
+      "accepted_final_record_ids": [
+        "env-09/run-2/openai_vs_anthropic/offer-0014"
+      ],
+      "anchor_id": "7d6931f2ea1b483c3895190d5d26c4ab79caf34d073c797557a926b0bf263be9",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 80.0,
+            "week": 1
+          },
+          {
+            "amount": 50.0,
+            "week": 3
+          },
+          {
+            "amount": 40.0,
+            "week": 5
+          },
+          {
+            "amount": 20.0,
+            "week": 7
+          },
+          {
+            "amount": 10.0,
+            "week": 9
+          },
+          {
+            "amount": 0.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 12.0,
+          "B": 5.0,
+          "C": 4.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 4,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "7d6931f2ea1b483c3895190d5d26c4ab79caf34d073c797557a926b0bf263be9"
+    }
+  ],
+  "contract_qual_root": "/home/bhavyesh/ContractSim/analysis/negotiation/inferences/main/control/contract-qual",
+  "environment_fingerprint": "1f8d16a4440a0ea2269eddaf8826be5ead2d0bc9902148ba7a7a8da7da32c576",
+  "environment_id": 5,
+  "environment_name": "env-05_baseline_current_cap20",
+  "f1_frontier": "/home/bhavyesh/ContractSim/algorithms/pareto/data/env-05/f1-merged/f1_frontier.json",
+  "p_sat_floor": 0.95,
+  "schema_version": 1,
+  "selection_counts": {
+    "accepted_jobs": 25,
+    "below_satisfaction_floor": 22,
+    "dominated": 1,
+    "missing_or_failed_solve": 0,
+    "unsupported_contingency": 0
+  }
+}

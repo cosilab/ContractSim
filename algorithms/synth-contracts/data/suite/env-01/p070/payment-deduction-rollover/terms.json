@@ -1,0 +1,65 @@
+{
+  "dish_prices": {
+    "A": 6,
+    "B": 4,
+    "C": 3
+  },
+  "payment_schedule": [
+    {
+      "amount": 132,
+      "week": 1
+    },
+    {
+      "amount": 3,
+      "week": 3
+    },
+    {
+      "amount": 2,
+      "week": 5
+    },
+    {
+      "amount": 25,
+      "week": 7
+    },
+    {
+      "amount": 3,
+      "week": 9
+    },
+    {
+      "amount": 25,
+      "week": 11
+    }
+  ],
+  "production_schedule": [
+    {
+      "A": 1,
+      "B": 5,
+      "C": 4,
+      "week": 2
+    },
+    {
+      "A": 1,
+      "B": 5,
+      "C": 4,
+      "week": 4
+    },
+    {
+      "A": 1,
+      "B": 5,
+      "C": 4,
+      "week": 6
+    },
+    {
+      "A": 1,
+      "B": 5,
+      "C": 4,
+      "week": 8
+    },
+    {
+      "A": 1,
+      "B": 5,
+      "C": 4,
+      "week": 10
+    }
+  ]
+}

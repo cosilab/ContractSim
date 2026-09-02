@@ -132,6 +132,18 @@ def contract_text(
     return "\n".join(lines) + "\n"
 
 
+def write_contract_txt(contract_dir: Path, environment_root: Path) -> Path:
+    """Render one generated contract directory in place."""
+    terms = _read_json(contract_dir / "terms.json")
+    config = _read_json(contract_dir / "config.json")
+    environment = _read_json(
+        environment_root / str(int(config["environment_id"])) / "environment.json"
+    )
+    output = contract_dir / "contract.txt"
+    output.write_text(contract_text(terms, config, environment), encoding="utf-8")
+    return output
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("contract_dir", type=Path)
@@ -142,14 +154,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    terms = _read_json(args.contract_dir / "terms.json")
-    config = _read_json(args.contract_dir / "config.json")
-    environment = _read_json(
-        args.environment_root / str(int(config["environment_id"])) / "environment.json"
-    )
-    output = args.contract_dir / "contract.txt"
-    output.write_text(contract_text(terms, config, environment), encoding="utf-8")
-    print(output)
+    print(write_contract_txt(args.contract_dir, args.environment_root))
 
 
 if __name__ == "__main__":

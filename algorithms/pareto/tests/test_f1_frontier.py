@@ -13,12 +13,12 @@ import numpy as np
 
 PARETO_ROOT = Path(__file__).resolve().parents[1]
 SOLVER_ROOT = PARETO_ROOT.parent / "rc-solver"
-for path in (PARETO_ROOT, SOLVER_ROOT):
+for path in (PARETO_ROOT.parent, SOLVER_ROOT):
     if str(path) not in sys.path:
         sys.path.insert(0, str(path))
 
-import f1_frontier as f1
-from pareto import f1_base_search
+from pareto.generation import f1_base_search
+from pareto.generation import f1_frontier as f1
 from contract import Contract
 from environment import Environment
 
@@ -167,7 +167,7 @@ class F1FrontierTests(unittest.TestCase):
             SOLVER_ROOT / "tests" / "data" / "environment_09.json"
         )
         cls.initial_contract = Contract.from_json(
-            PARETO_ROOT / "examples" / "f1_initial_contract.json"
+            PARETO_ROOT / "data" / "f1_initial_contract.json"
         )
         cls.initial_candidate = f1.ContractCandidate.from_contract(
             cls.initial_contract, cls.environment.supplier.products
@@ -215,7 +215,7 @@ class F1FrontierTests(unittest.TestCase):
     def test_default_initial_contract_matches_contractbench_seed(self) -> None:
         self.assertEqual(
             f1.DEFAULT_INITIAL_CONTRACT_PATH,
-            PARETO_ROOT / "examples" / "f1_initial_contract.json",
+            PARETO_ROOT / "data" / "f1_initial_contract.json",
         )
         self.assertEqual(
             candidate_vector(self.initial_candidate),

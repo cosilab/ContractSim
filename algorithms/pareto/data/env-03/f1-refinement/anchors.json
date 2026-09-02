@@ -1,0 +1,954 @@
+{
+  "anchor_count": 11,
+  "anchors": [
+    {
+      "E_customer_utility": 229.9949188232422,
+      "E_supplier_utility": 70.92797088623047,
+      "P_sat": 0.999724268913269,
+      "accepted_final_record_ids": [
+        "env-05/run-3/openai_vs_openai/offer-0004"
+      ],
+      "anchor_id": "1503271c0e46b0462e7c7ffcc92194e77c25be8d66c540b933d4ceb379376c50",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 40.0,
+            "week": 1
+          },
+          {
+            "amount": 40.0,
+            "week": 3
+          },
+          {
+            "amount": 35.0,
+            "week": 5
+          },
+          {
+            "amount": 30.0,
+            "week": 7
+          },
+          {
+            "amount": 30.0,
+            "week": 9
+          },
+          {
+            "amount": 20.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 10.0,
+          "B": 6.0,
+          "C": 3.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "1503271c0e46b0462e7c7ffcc92194e77c25be8d66c540b933d4ceb379376c50"
+    },
+    {
+      "E_customer_utility": 291.66273498535156,
+      "E_supplier_utility": 37.3509635925293,
+      "P_sat": 0.9945161938667297,
+      "accepted_final_record_ids": [
+        "env-05/run-3/anthropic_vs_gemini/offer-0010"
+      ],
+      "anchor_id": "277b3c3e0f2b26c8d9c3a672d876b639b96bb97b066eedb4038d96dd9e4bcf3f",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 50.0,
+            "week": 1
+          },
+          {
+            "amount": 40.0,
+            "week": 3
+          },
+          {
+            "amount": 40.0,
+            "week": 5
+          },
+          {
+            "amount": 35.0,
+            "week": 7
+          },
+          {
+            "amount": 25.0,
+            "week": 9
+          },
+          {
+            "amount": 9.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 8.0,
+          "B": 4.0,
+          "C": 3.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 2,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "277b3c3e0f2b26c8d9c3a672d876b639b96bb97b066eedb4038d96dd9e4bcf3f"
+    },
+    {
+      "E_customer_utility": 289.3358459472656,
+      "E_supplier_utility": 37.347320556640625,
+      "P_sat": 0.9930259585380554,
+      "accepted_final_record_ids": [
+        "env-05/run-1/gemini_vs_openai/offer-0001"
+      ],
+      "anchor_id": "2cf9095b5fab2f3d761eda1f75e4e971e4eda61c02142de92a1b20df98490a5e",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 39.0,
+            "week": 1
+          },
+          {
+            "amount": 39.0,
+            "week": 3
+          },
+          {
+            "amount": 39.0,
+            "week": 5
+          },
+          {
+            "amount": 39.0,
+            "week": 7
+          },
+          {
+            "amount": 39.0,
+            "week": 9
+          },
+          {
+            "amount": 0.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 8.0,
+          "B": 5.0,
+          "C": 2.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "2cf9095b5fab2f3d761eda1f75e4e971e4eda61c02142de92a1b20df98490a5e"
+    },
+    {
+      "E_customer_utility": 260.99200439453125,
+      "E_supplier_utility": 55.6733283996582,
+      "P_sat": 0.9998447299003601,
+      "accepted_final_record_ids": [
+        "env-05/run-3/anthropic_vs_anthropic/offer-0013"
+      ],
+      "anchor_id": "42467de37b54fba44860d0fbbafcf09709541655c984b879975a060cf572a637",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 85.0,
+            "week": 1
+          },
+          {
+            "amount": 50.0,
+            "week": 3
+          },
+          {
+            "amount": 30.0,
+            "week": 5
+          },
+          {
+            "amount": 20.0,
+            "week": 7
+          },
+          {
+            "amount": 10.0,
+            "week": 9
+          },
+          {
+            "amount": 5.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 10.0,
+          "B": 2.0,
+          "C": 2.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "42467de37b54fba44860d0fbbafcf09709541655c984b879975a060cf572a637"
+    },
+    {
+      "E_customer_utility": 199.994140625,
+      "E_supplier_utility": 85.48834228515625,
+      "P_sat": 0.9998372793197632,
+      "accepted_final_record_ids": [
+        "env-05/run-1/gemini_vs_anthropic/offer-0011"
+      ],
+      "anchor_id": "42502af35463addfcb066c95de91fac8607a9408d3d4f68b23dd2015649cf505",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 75.0,
+            "week": 1
+          },
+          {
+            "amount": 45.0,
+            "week": 3
+          },
+          {
+            "amount": 35.0,
+            "week": 5
+          },
+          {
+            "amount": 20.0,
+            "week": 7
+          },
+          {
+            "amount": 12.0,
+            "week": 9
+          },
+          {
+            "amount": 8.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 12.0,
+          "B": 6.0,
+          "C": 3.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "42502af35463addfcb066c95de91fac8607a9408d3d4f68b23dd2015649cf505"
+    },
+    {
+      "E_customer_utility": 201.98876953125,
+      "E_supplier_utility": 83.97735595703125,
+      "P_sat": 0.9998372793197632,
+      "accepted_final_record_ids": [
+        "env-05/run-2/openai_vs_anthropic/offer-0011"
+      ],
+      "anchor_id": "55101eddfb757585b9c432354be160a3ef7dbb0f94bab3f82784ebf9baecdf6f",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 100.0,
+            "week": 1
+          },
+          {
+            "amount": 40.0,
+            "week": 3
+          },
+          {
+            "amount": 25.0,
+            "week": 5
+          },
+          {
+            "amount": 12.0,
+            "week": 7
+          },
+          {
+            "amount": 6.0,
+            "week": 9
+          },
+          {
+            "amount": 4.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 11.0,
+          "B": 7.0,
+          "C": 4.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 1,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "55101eddfb757585b9c432354be160a3ef7dbb0f94bab3f82784ebf9baecdf6f"
+    },
+    {
+      "E_customer_utility": 243.98924255371094,
+      "E_supplier_utility": 65.47525024414062,
+      "P_sat": 0.9997332692146301,
+      "accepted_final_record_ids": [
+        "env-05/run-2/anthropic_vs_anthropic/offer-0018"
+      ],
+      "anchor_id": "5fdb5ffd6bc5d7bbe9d96bac1702e00512f54241436edf24ff0d9fedd1eb6f5a",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 60.0,
+            "week": 1
+          },
+          {
+            "amount": 55.0,
+            "week": 3
+          },
+          {
+            "amount": 40.0,
+            "week": 5
+          },
+          {
+            "amount": 20.0,
+            "week": 7
+          },
+          {
+            "amount": 14.0,
+            "week": 9
+          },
+          {
+            "amount": 10.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 10.0,
+          "B": 4.0,
+          "C": 3.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 2,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "5fdb5ffd6bc5d7bbe9d96bac1702e00512f54241436edf24ff0d9fedd1eb6f5a"
+    },
+    {
+      "E_customer_utility": 265.8854217529297,
+      "E_supplier_utility": 41.236690521240234,
+      "P_sat": 0.9745801091194153,
+      "accepted_final_record_ids": [
+        "env-05/run-1/openai_vs_openai/offer-0006"
+      ],
+      "anchor_id": "81f4905167cb59e076baedaa64248663a5c2dd0e000c1ebf32398b05a8a865f8",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 60.0,
+            "week": 1
+          },
+          {
+            "amount": 28.0,
+            "week": 3
+          },
+          {
+            "amount": 28.0,
+            "week": 5
+          },
+          {
+            "amount": 28.0,
+            "week": 7
+          },
+          {
+            "amount": 28.0,
+            "week": 9
+          },
+          {
+            "amount": 28.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 9.0,
+          "B": 5.0,
+          "C": 2.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 1,
+              "C": 3
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 2,
+              "C": 2
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 2
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 3
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 3
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "81f4905167cb59e076baedaa64248663a5c2dd0e000c1ebf32398b05a8a865f8"
+    },
+    {
+      "E_customer_utility": 266.58412170410156,
+      "E_supplier_utility": 40.22114944458008,
+      "P_sat": 0.9947937726974487,
+      "accepted_final_record_ids": [
+        "env-05/run-2/openai_vs_openai/offer-0009"
+      ],
+      "anchor_id": "84e042a43dae8414685593c0c20ee7993e78c469c9b2ea5b30ef4ae81953fe2d",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 44.0,
+            "week": 1
+          },
+          {
+            "amount": 39.0,
+            "week": 3
+          },
+          {
+            "amount": 39.0,
+            "week": 5
+          },
+          {
+            "amount": 39.0,
+            "week": 7
+          },
+          {
+            "amount": 39.0,
+            "week": 9
+          },
+          {
+            "amount": 0.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 10.0,
+          "B": 4.0,
+          "C": 2.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 4,
+              "C": 2
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 4,
+              "C": 2
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 2,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 4,
+              "C": 2
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 4,
+              "C": 2
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "84e042a43dae8414685593c0c20ee7993e78c469c9b2ea5b30ef4ae81953fe2d"
+    },
+    {
+      "E_customer_utility": 243.9983367919922,
+      "E_supplier_utility": 64.4447021484375,
+      "P_sat": 0.9999004602432251,
+      "accepted_final_record_ids": [
+        "env-05/run-1/anthropic_vs_anthropic/offer-0022"
+      ],
+      "anchor_id": "86f97cc180c983dab269a0bb08271ac7979f1ff40723129307eb8593509b433c",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 60.0,
+            "week": 1
+          },
+          {
+            "amount": 50.0,
+            "week": 3
+          },
+          {
+            "amount": 39.0,
+            "week": 5
+          },
+          {
+            "amount": 25.0,
+            "week": 7
+          },
+          {
+            "amount": 15.0,
+            "week": 9
+          },
+          {
+            "amount": 10.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 10.0,
+          "B": 4.0,
+          "C": 3.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 4,
+              "B": 2,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 3,
+              "B": 1,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "86f97cc180c983dab269a0bb08271ac7979f1ff40723129307eb8593509b433c"
+    },
+    {
+      "E_customer_utility": 204.99252319335938,
+      "E_supplier_utility": 80.49198913574219,
+      "P_sat": 0.9998372793197632,
+      "accepted_final_record_ids": [
+        "env-05/run-3/gemini_vs_anthropic/offer-0011"
+      ],
+      "anchor_id": "fc4486e5f60061bb82b2fe2a9288206ef157cbc751632cf312105a5c80ea14c3",
+      "contract": {
+        "payment_schedule": [
+          {
+            "amount": 80.0,
+            "week": 1
+          },
+          {
+            "amount": 45.0,
+            "week": 3
+          },
+          {
+            "amount": 30.0,
+            "week": 5
+          },
+          {
+            "amount": 20.0,
+            "week": 7
+          },
+          {
+            "amount": 10.0,
+            "week": 9
+          },
+          {
+            "amount": 5.0,
+            "week": 11
+          }
+        ],
+        "product_prices": {
+          "A": 12.0,
+          "B": 5.0,
+          "C": 4.0
+        },
+        "production_schedule": [
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 2
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 4
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 6
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 8
+          },
+          {
+            "product_quantities": {
+              "A": 2,
+              "B": 2,
+              "C": 1
+            },
+            "week": 10
+          }
+        ]
+      },
+      "solve_hash": "fc4486e5f60061bb82b2fe2a9288206ef157cbc751632cf312105a5c80ea14c3"
+    }
+  ],
+  "contract_qual_root": "/home/bhavyesh/ContractSim/analysis/negotiation/inferences/main/control/contract-qual",
+  "environment_fingerprint": "9af6ccaa4e093675d317396a542d4f6d941bb4c08c7534b27e80e1ae54c975b2",
+  "environment_id": 3,
+  "environment_name": "env-03_moderate_current_cap20",
+  "f1_frontier": "/home/bhavyesh/ContractSim/algorithms/pareto/data/env-03/f1-merged/f1_frontier.json",
+  "p_sat_floor": 0.95,
+  "schema_version": 1,
+  "selection_counts": {
+    "accepted_jobs": 26,
+    "below_satisfaction_floor": 7,
+    "dominated": 8,
+    "missing_or_failed_solve": 0,
+    "unsupported_contingency": 0
+  }
+}

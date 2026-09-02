@@ -1,0 +1,26 @@
+{
+  "environment_id": 5,
+  "domains": [
+    "hotel-cleaning",
+    "ai-model-hosting"
+  ],
+  "providers": [
+    "gemini",
+    "openai",
+    "anthropic"
+  ],
+  "baselines": [
+    "rc",
+    "re",
+    "rcc"
+  ],
+  "negotiation_runs": 3,
+  "negotiation_max_rounds": 50,
+  "performance_seeds": [
+    42,
+    43,
+    44
+  ],
+  "performance_max_parallel": 4,
+  "contract_root": "../algorithms/synth-contracts/data/suite/env-05"
+}

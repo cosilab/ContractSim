@@ -167,6 +167,16 @@ def _bellman_step_with_policy(
     current_inventory_shape = expected.shape[
         1 : number_of_resources + 1
     ]
+    # Success-table row sums give Pr(current round succeeds), without P_next.
+    round_success_by_action = jnp.asarray(1.0, dtype=continuation.dtype)
+    for resource_index, table in enumerate(transition_tables):
+        shape = [1] * (2 * number_of_resources)
+        shape[resource_index] = table.shape[0]
+        shape[number_of_resources + resource_index] = table.shape[1]
+        round_success_by_action = round_success_by_action * jnp.sum(
+            table,
+            axis=-1,
+        ).reshape(shape)
     capital = jnp.arange(number_of_capital_states, dtype=cost_scenarios.dtype)
 
     def select_for_scenario(costs: jax.Array) -> tuple[jax.Array, jax.Array]:
@@ -200,6 +210,10 @@ def _bellman_step_with_policy(
             gather_index,
             axis=-1,
         )
+        gathered_round_success = jnp.broadcast_to(
+            round_success_by_action[..., None],
+            gathered_probability.shape,
+        )
 
         action_cost = costs.reshape(
             (1,) * number_of_resources + costs.shape + (1,)
@@ -225,6 +239,11 @@ def _bellman_step_with_policy(
         expected_total_paid = jnp.where(
             affordable,
             payment + gathered_total_paid,
+            0.0,
+        )
+        round_success_probability = jnp.where(
+            affordable,
+            gathered_round_success,
             0.0,
         )
 
@@ -264,6 +283,13 @@ def _bellman_step_with_policy(
             number_of_resources=number_of_resources,
             number_of_capital_states=number_of_capital_states,
         )
+        selected_round_success = _select_at_best_order(
+            round_success_probability,
+            best,
+            current_inventory_shape=current_inventory_shape,
+            number_of_resources=number_of_resources,
+            number_of_capital_states=number_of_capital_states,
+        )
 
         return (
             jnp.stack(
@@ -271,7 +297,7 @@ def _bellman_step_with_policy(
                     selected_probability,
                     selected_supplier_utility,
                     selected_customer_value
-                    + selected_probability * customer_value,
+                    + selected_round_success * customer_value,
                     selected_total_paid,
                 ),
                 axis=0,

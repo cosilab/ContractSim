@@ -18,9 +18,15 @@ keys/
 .env.*
 
 # Separate paper checkout
-/AAAI paper/
+/AAAI Paper/
 
 # Results and analysis
 /results/
-/analysis/
-paper-stuff
+!/results.zip
+/analysis/negotiation/inferences/
+/analysis/performance/inferences/
+!/analysis/negotiation/inferences.zip
+!/analysis/performance/inferences.zip
+/domain-robustness/runs/
+/global/
+/paper-stuff/

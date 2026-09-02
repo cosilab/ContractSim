@@ -86,6 +86,7 @@ def run_performance(
             production, production_decision = supplier.decide_production(
                 game,
                 week,
+                received=received,
             )
             produced = game.apply_production(production)
             customer_observation = customer.observe_production(

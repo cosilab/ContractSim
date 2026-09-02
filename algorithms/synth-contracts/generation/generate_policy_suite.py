@@ -32,6 +32,7 @@ from contingencies import (  # noqa: E402
 from contract import Contract  # noqa: E402
 from environment import Environment  # noqa: E402
 from runtime import TransitionRuntime  # noqa: E402
+from generate_contract_txt import write_contract_txt  # noqa: E402
 
 
 SATISFACTION_THRESHOLD = 0.95
@@ -271,6 +272,17 @@ def _save_policy(
 
 
 def generate(args: argparse.Namespace) -> list[dict[str, Any]]:
+    selected_environments = set(args.evaluation_envs or range(1, 7))
+    manifest_path = args.manifest_path or args.output_root / "manifest.json"
+    expected_entries = (
+        len(SOURCE_BANDS)
+        * len(CONTINGENCY_SPECS)
+        * sum(
+            evaluation_environment_id in selected_environments
+            for evaluation_ids in EVALUATION_ENVIRONMENTS.values()
+            for evaluation_environment_id in evaluation_ids
+        )
+    )
     environments = {
         environment_id: Environment.from_json(
             args.environment_root / str(environment_id) / "environment.json"
@@ -296,6 +308,8 @@ def generate(args: argparse.Namespace) -> list[dict[str, Any]]:
             contract = _contract_from_terms(terms)
 
             for evaluation_environment_id in evaluation_ids:
+                if evaluation_environment_id not in selected_environments:
+                    continue
                 environment = environments[evaluation_environment_id]
                 round_inputs = _round_inputs(
                     contract,
@@ -308,19 +322,33 @@ def generate(args: argparse.Namespace) -> list[dict[str, Any]]:
                         f"from-env-{source_environment_id:02d}_"
                         f"{band}_{spec.name}"
                     )
-                    instance_dir = args.output_root / instance_id
+                    instance_dir = (
+                        args.output_root
+                        / f"env-{evaluation_environment_id:02d}"
+                        / band
+                        / spec.name.replace("_", "-")
+                    )
                     policy_path = instance_dir / "baselines" / "rcc" / "policy.npz"
                     result_path = instance_dir / "result.json"
-                    if args.resume and policy_path.is_file() and result_path.is_file():
+                    if (
+                        args.resume
+                        and policy_path.is_file()
+                        and result_path.is_file()
+                        and (instance_dir / "terms.json").is_file()
+                        and (instance_dir / "config.json").is_file()
+                    ):
+                        write_contract_txt(instance_dir, args.environment_root)
                         print(
-                            f"[{instance_number:03d}/240] resume: {instance_id}",
+                            f"[{instance_number:03d}/{expected_entries}] "
+                            f"resume: {instance_id}",
                             flush=True,
                         )
                         manifest.append(_read_json(result_path))
                         continue
 
                     print(
-                        f"[{instance_number:03d}/240] solving: {instance_id}",
+                        f"[{instance_number:03d}/{expected_entries}] "
+                        f"solving: {instance_id}",
                         flush=True,
                     )
                     solver = _solver_for(spec, environment, contract)
@@ -333,6 +361,7 @@ def generate(args: argparse.Namespace) -> list[dict[str, Any]]:
                     params = _contingency_params(spec, environment, contract)
                     config = {
                         "schema_version": 1,
+                        "instance_id": instance_id,
                         "source_environment_id": source_environment_id,
                         "evaluation_environment_id": evaluation_environment_id,
                         "environment_id": evaluation_environment_id,
@@ -350,6 +379,7 @@ def generate(args: argparse.Namespace) -> list[dict[str, Any]]:
                     }
                     _write_json(instance_dir / "terms.json", terms)
                     _write_json(instance_dir / "config.json", config)
+                    write_contract_txt(instance_dir, args.environment_root)
                     _save_policy(
                         policy_path,
                         policy,
@@ -359,15 +389,18 @@ def generate(args: argparse.Namespace) -> list[dict[str, Any]]:
                     )
                     _write_json(result_path, result)
                     manifest.append(result)
-                    _write_json(args.output_root / "manifest.json", manifest)
+                    _write_json(manifest_path, manifest)
                     print(
-                        f"[{instance_number:03d}/240] saved:   {instance_id}",
+                        f"[{instance_number:03d}/{expected_entries}] "
+                        f"saved:   {instance_id}",
                         flush=True,
                     )
 
-    if len(manifest) != 240:
-        raise RuntimeError(f"Expected 240 suite entries, generated {len(manifest)}")
-    _write_json(args.output_root / "manifest.json", manifest)
+    if len(manifest) != expected_entries:
+        raise RuntimeError(
+            f"Expected {expected_entries} suite entries, generated {len(manifest)}"
+        )
+    _write_json(manifest_path, manifest)
     return manifest
 
 
@@ -376,12 +409,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--source-root",
         type=Path,
-        default=ALGORITHMS_ROOT / "synth-contracts" / "data",
+        default=ALGORITHMS_ROOT / "synth-contracts" / "data" / "base",
     )
     parser.add_argument(
         "--output-root",
         type=Path,
-        default=ALGORITHMS_ROOT / "synth-contracts" / "data" / "policy-suite",
+        default=ALGORITHMS_ROOT / "synth-contracts" / "data" / "suite",
     )
     parser.add_argument(
         "--environment-root",
@@ -393,6 +426,13 @@ def build_parser() -> argparse.ArgumentParser:
         type=float,
         default=SATISFACTION_THRESHOLD,
     )
+    parser.add_argument(
+        "--evaluation-envs",
+        nargs="+",
+        type=int,
+        choices=range(1, 7),
+    )
+    parser.add_argument("--manifest-path", type=Path)
     parser.add_argument("--resume", action="store_true")
     return parser
 

@@ -1,0 +1,21 @@
+NEGOTIATION PROCESS:
+
+You have at most {{MAX_ROUNDS}} rounds to reach an agreement.
+
+Each round has two turns: the hotel owner acts first, followed by the cleaning provider.
+
+On your turn, you may send a message to the other party and optionally propose a contract. You may formally accept the cleaning provider's most recent contract. Accepting it ends the negotiation with an agreement.
+
+You may also terminate the negotiation and walk away at any time. If either party terminates the negotiation, or if no agreement is reached within {{MAX_ROUNDS}} rounds, negotiations end with no contract.
+
+Negotiate a contract with the cleaning provider, explicitly negotiating: (i) price per unit of each cleaning type, (ii) cleaning schedule (how many of each cleaning type per cleaning round over 5 cleaning rounds), and (iii) payment schedule (how much to pay in each of the 6 payment weeks).
+
+Aim to negotiate a contract that maximizes your expected private utility when executed during the subsequent contract-execution phase.
+
+IMPORTANT:
+
+Any contract you propose or accept MUST explicitly state the price per unit for each cleaning type, the exact quantity of each cleaning type per cleaning round, and the exact payment amount for each payment week — do not accept a contract that leaves any of these unspecified.
+
+All quantities of each contracted cleaning type must be non-negative whole numbers. All per-unit prices and payment amounts must be non-negative multiples of $100.
+
+Only propose a contract once you believe you have gathered sufficient information from the negotiation to specify all of these terms.

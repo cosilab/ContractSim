@@ -1,0 +1,672 @@
+{
+  "completed_points": [
+    {
+      "E_customer_utility": 525.0419158935547,
+      "E_supplier_utility": -8.189380645751953,
+      "P_sat": 0.9616268873214722,
+      "candidate": {
+        "payments": [
+          69,
+          30,
+          41,
+          35,
+          20,
+          0
+        ],
+        "prices": [
+          6,
+          3,
+          3
+        ],
+        "quantities": [
+          3,
+          2,
+          5
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": -40.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 525.0419158935547,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 525.0419158935547,
+      "E_supplier_utility": -8.189380645751953,
+      "P_sat": 0.9616268873214722,
+      "candidate": {
+        "payments": [
+          69,
+          30,
+          41,
+          35,
+          20,
+          0
+        ],
+        "prices": [
+          6,
+          3,
+          3
+        ],
+        "quantities": [
+          3,
+          2,
+          5
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": -30.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 525.0419158935547,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 525.0419158935547,
+      "E_supplier_utility": -8.189380645751953,
+      "P_sat": 0.9616268873214722,
+      "candidate": {
+        "payments": [
+          69,
+          30,
+          41,
+          35,
+          20,
+          0
+        ],
+        "prices": [
+          6,
+          3,
+          3
+        ],
+        "quantities": [
+          3,
+          2,
+          5
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": -20.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 525.0419158935547,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 525.0419158935547,
+      "E_supplier_utility": -8.189380645751953,
+      "P_sat": 0.9616268873214722,
+      "candidate": {
+        "payments": [
+          69,
+          30,
+          41,
+          35,
+          20,
+          0
+        ],
+        "prices": [
+          6,
+          3,
+          3
+        ],
+        "quantities": [
+          3,
+          2,
+          5
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": -10.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 525.0419158935547,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 528.2097473144531,
+      "E_supplier_utility": 2.4812095165252686,
+      "P_sat": 0.9854389429092407,
+      "candidate": {
+        "payments": [
+          24,
+          71,
+          41,
+          33,
+          26,
+          0
+        ],
+        "prices": [
+          6,
+          4,
+          3
+        ],
+        "quantities": [
+          3,
+          3,
+          3
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 0.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 528.2097473144531,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 459.5718536376953,
+      "E_supplier_utility": 11.921027183532715,
+      "P_sat": 0.9955649971961975,
+      "candidate": {
+        "payments": [
+          27,
+          98,
+          46,
+          3,
+          16,
+          0
+        ],
+        "prices": [
+          6,
+          4,
+          3
+        ],
+        "quantities": [
+          1,
+          5,
+          4
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 10.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 459.5718536376953,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 449.88075256347656,
+      "E_supplier_utility": 21.851465225219727,
+      "P_sat": 0.9987100958824158,
+      "candidate": {
+        "payments": [
+          21,
+          114,
+          46,
+          3,
+          16,
+          0
+        ],
+        "prices": [
+          8,
+          4,
+          3
+        ],
+        "quantities": [
+          1,
+          5,
+          4
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 20.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 449.88075256347656,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 419.9622344970703,
+      "E_supplier_utility": 30.726966857910156,
+      "P_sat": 0.9996414184570312,
+      "candidate": {
+        "payments": [
+          16,
+          82,
+          70,
+          4,
+          8,
+          0
+        ],
+        "prices": [
+          12,
+          4,
+          2
+        ],
+        "quantities": [
+          1,
+          5,
+          2
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 30.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 419.9622344970703,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 409.97947692871094,
+      "E_supplier_utility": 40.67500686645508,
+      "P_sat": 0.9998102188110352,
+      "candidate": {
+        "payments": [
+          12,
+          96,
+          70,
+          4,
+          8,
+          0
+        ],
+        "prices": [
+          14,
+          4,
+          2
+        ],
+        "quantities": [
+          1,
+          5,
+          2
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 40.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 409.97947692871094,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 399.9808807373047,
+      "E_supplier_utility": 50.67008590698242,
+      "P_sat": 0.9998553991317749,
+      "candidate": {
+        "payments": [
+          12,
+          106,
+          70,
+          4,
+          8,
+          0
+        ],
+        "prices": [
+          16,
+          4,
+          2
+        ],
+        "quantities": [
+          1,
+          5,
+          2
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 50.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 399.9808807373047,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 374.9736022949219,
+      "E_supplier_utility": 63.09477233886719,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          62,
+          116,
+          10,
+          4,
+          8,
+          0
+        ],
+        "prices": [
+          18,
+          4,
+          2
+        ],
+        "quantities": [
+          1,
+          5,
+          1
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 60.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 374.9736022949219,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 349.9776916503906,
+      "E_supplier_utility": 71.36319732666016,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          57,
+          121,
+          10,
+          4,
+          8,
+          0
+        ],
+        "prices": [
+          16,
+          5,
+          2
+        ],
+        "quantities": [
+          1,
+          4,
+          2
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 70.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 349.9776916503906,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 324.9768524169922,
+      "E_supplier_utility": 83.72936248779297,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          82,
+          101,
+          5,
+          4,
+          8,
+          0
+        ],
+        "prices": [
+          18,
+          5,
+          2
+        ],
+        "quantities": [
+          1,
+          4,
+          1
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 80.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 324.9768524169922,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 250.0,
+      "E_supplier_utility": 93.97493743896484,
+      "P_sat": 0.9999592304229736,
+      "candidate": {
+        "payments": [
+          0,
+          140,
+          2,
+          22,
+          31,
+          5
+        ],
+        "prices": [
+          12,
+          8,
+          5
+        ],
+        "quantities": [
+          1,
+          1,
+          4
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 90.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 250.0,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 250.0,
+      "E_supplier_utility": 93.98419189453125,
+      "P_sat": 0.9999592304229736,
+      "candidate": {
+        "payments": [
+          0,
+          130,
+          12,
+          22,
+          31,
+          5
+        ],
+        "prices": [
+          12,
+          8,
+          5
+        ],
+        "quantities": [
+          1,
+          1,
+          4
+        ]
+      },
+      "constraint_met": false,
+      "epsilon": 100.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": -999905.7658081055,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 274.9850311279297,
+      "E_supplier_utility": 108.5633316040039,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          72,
+          57,
+          13,
+          12,
+          29,
+          17
+        ],
+        "prices": [
+          13,
+          9,
+          5
+        ],
+        "quantities": [
+          2,
+          1,
+          1
+        ]
+      },
+      "constraint_met": false,
+      "epsilon": 110.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": -999891.1616833649,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 274.9850311279297,
+      "E_supplier_utility": 108.5633316040039,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          72,
+          57,
+          13,
+          12,
+          29,
+          17
+        ],
+        "prices": [
+          13,
+          9,
+          5
+        ],
+        "quantities": [
+          2,
+          1,
+          1
+        ]
+      },
+      "constraint_met": false,
+      "epsilon": 120.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": -999891.1616833649,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 274.9850311279297,
+      "E_supplier_utility": 108.5633316040039,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          72,
+          57,
+          13,
+          12,
+          29,
+          17
+        ],
+        "prices": [
+          13,
+          9,
+          5
+        ],
+        "quantities": [
+          2,
+          1,
+          1
+        ]
+      },
+      "constraint_met": false,
+      "epsilon": 130.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": -999891.1616833649,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 274.9850311279297,
+      "E_supplier_utility": 108.5633316040039,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          72,
+          57,
+          13,
+          12,
+          29,
+          17
+        ],
+        "prices": [
+          13,
+          9,
+          5
+        ],
+        "quantities": [
+          2,
+          1,
+          1
+        ]
+      },
+      "constraint_met": false,
+      "epsilon": 140.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": -999891.1616833649,
+      "sweep": "max-customer"
+    },
+    {
+      "E_customer_utility": 224.99951171875,
+      "E_supplier_utility": 120.95105743408203,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          23,
+          83,
+          7,
+          35,
+          31,
+          21
+        ],
+        "prices": [
+          18,
+          10,
+          2
+        ],
+        "quantities": [
+          1,
+          2,
+          1
+        ]
+      },
+      "constraint_met": false,
+      "epsilon": 150.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": -999878.8239430542,
+      "sweep": "max-customer"
+    }
+  ],
+  "config_fingerprint": "977117ded21f03d88e5a4f38a7f537a699ec5a377b39bb4f76aa94b210d5d53b",
+  "current_best": null,
+  "current_starts": [],
+  "environment_fingerprint": "b552e860a1eb5f334078b3e01644a570566b4db0e01a1e66c171d708a4313796",
+  "epsilon_index": 20,
+  "initial_candidate": {
+    "payments": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+    ],
+    "prices": [
+      10,
+      5,
+      3
+    ],
+    "quantities": [
+      2,
+      2,
+      2
+    ]
+  },
+  "schema_version": 2,
+  "start_index": 0,
+  "status": "complete",
+  "warm_start": {
+    "payments": [
+      23,
+      83,
+      7,
+      35,
+      31,
+      21
+    ],
+    "prices": [
+      18,
+      10,
+      2
+    ],
+    "quantities": [
+      1,
+      2,
+      1
+    ]
+  }
+}

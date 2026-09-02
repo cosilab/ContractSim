@@ -1,0 +1,6476 @@
+{
+  "schema_version": 1,
+  "frontier": "F2",
+  "status": "complete",
+  "environment_id": 1,
+  "environment_name": "env-01_benign_current_cap20",
+  "method": "exact deterministic enumeration",
+  "points": [
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 0,
+      "E_customer_utility": 585,
+      "total_payment": 200,
+      "total_production_cost": 200,
+      "total_customer_value": 585,
+      "quantity_A": 45,
+      "quantity_B": 5,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 2,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 5,
+      "E_customer_utility": 568,
+      "total_payment": 199,
+      "total_production_cost": 194,
+      "total_customer_value": 567,
+      "quantity_A": 43,
+      "quantity_B": 6,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 6,
+      "E_customer_utility": 567,
+      "total_payment": 200,
+      "total_production_cost": 194,
+      "total_customer_value": 567,
+      "quantity_A": 43,
+      "quantity_B": 6,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 7,
+      "E_customer_utility": 562,
+      "total_payment": 199,
+      "total_production_cost": 192,
+      "total_customer_value": 561,
+      "quantity_A": 42,
+      "quantity_B": 7,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 8,
+      "E_customer_utility": 558,
+      "total_payment": 200,
+      "total_production_cost": 192,
+      "total_customer_value": 558,
+      "quantity_A": 41,
+      "quantity_B": 8,
+      "quantity_C": 6,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 4,
+          "C": 2
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 10,
+      "E_customer_utility": 555,
+      "total_payment": 200,
+      "total_production_cost": 190,
+      "total_customer_value": 555,
+      "quantity_A": 40,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 11,
+      "E_customer_utility": 550,
+      "total_payment": 199,
+      "total_production_cost": 188,
+      "total_customer_value": 549,
+      "quantity_A": 39,
+      "quantity_B": 11,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 7,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 12,
+      "E_customer_utility": 549,
+      "total_payment": 200,
+      "total_production_cost": 188,
+      "total_customer_value": 549,
+      "quantity_A": 41,
+      "quantity_B": 7,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 13,
+      "E_customer_utility": 544,
+      "total_payment": 199,
+      "total_production_cost": 186,
+      "total_customer_value": 543,
+      "quantity_A": 40,
+      "quantity_B": 8,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 4,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 14,
+      "E_customer_utility": 540,
+      "total_payment": 200,
+      "total_production_cost": 186,
+      "total_customer_value": 540,
+      "quantity_A": 40,
+      "quantity_B": 7,
+      "quantity_C": 6,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 3,
+          "C": 2
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 15,
+      "E_customer_utility": 538,
+      "total_payment": 199,
+      "total_production_cost": 184,
+      "total_customer_value": 537,
+      "quantity_A": 41,
+      "quantity_B": 5,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 16,
+      "E_customer_utility": 537,
+      "total_payment": 200,
+      "total_production_cost": 184,
+      "total_customer_value": 537,
+      "quantity_A": 38,
+      "quantity_B": 11,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 7,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 17,
+      "E_customer_utility": 532,
+      "total_payment": 199,
+      "total_production_cost": 182,
+      "total_customer_value": 531,
+      "quantity_A": 40,
+      "quantity_B": 6,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 18,
+      "E_customer_utility": 531,
+      "total_payment": 200,
+      "total_production_cost": 182,
+      "total_customer_value": 531,
+      "quantity_A": 40,
+      "quantity_B": 6,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 19,
+      "E_customer_utility": 526,
+      "total_payment": 199,
+      "total_production_cost": 180,
+      "total_customer_value": 525,
+      "quantity_A": 39,
+      "quantity_B": 7,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 20,
+      "E_customer_utility": 525,
+      "total_payment": 200,
+      "total_production_cost": 180,
+      "total_customer_value": 525,
+      "quantity_A": 40,
+      "quantity_B": 5,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 21,
+      "E_customer_utility": 520,
+      "total_payment": 199,
+      "total_production_cost": 178,
+      "total_customer_value": 519,
+      "quantity_A": 34,
+      "quantity_B": 16,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 22,
+      "E_customer_utility": 516,
+      "total_payment": 200,
+      "total_production_cost": 178,
+      "total_customer_value": 516,
+      "quantity_A": 36,
+      "quantity_B": 11,
+      "quantity_C": 6,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 2
+        },
+        {
+          "A": 1,
+          "B": 6,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 23,
+      "E_customer_utility": 514,
+      "total_payment": 199,
+      "total_production_cost": 176,
+      "total_customer_value": 513,
+      "quantity_A": 37,
+      "quantity_B": 9,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 24,
+      "E_customer_utility": 510,
+      "total_payment": 200,
+      "total_production_cost": 176,
+      "total_customer_value": 510,
+      "quantity_A": 32,
+      "quantity_B": 18,
+      "quantity_C": 6,
+      "price_A": 4,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 2
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 25,
+      "E_customer_utility": 508,
+      "total_payment": 199,
+      "total_production_cost": 174,
+      "total_customer_value": 507,
+      "quantity_A": 36,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 26,
+      "E_customer_utility": 504,
+      "total_payment": 200,
+      "total_production_cost": 174,
+      "total_customer_value": 504,
+      "quantity_A": 34,
+      "quantity_B": 13,
+      "quantity_C": 6,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 4,
+          "C": 2
+        },
+        {
+          "A": 1,
+          "B": 6,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 27,
+      "E_customer_utility": 502,
+      "total_payment": 199,
+      "total_production_cost": 172,
+      "total_customer_value": 501,
+      "quantity_A": 36,
+      "quantity_B": 9,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 28,
+      "E_customer_utility": 501,
+      "total_payment": 200,
+      "total_production_cost": 172,
+      "total_customer_value": 501,
+      "quantity_A": 37,
+      "quantity_B": 7,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 29,
+      "E_customer_utility": 496,
+      "total_payment": 199,
+      "total_production_cost": 170,
+      "total_customer_value": 495,
+      "quantity_A": 36,
+      "quantity_B": 8,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 30,
+      "E_customer_utility": 495,
+      "total_payment": 200,
+      "total_production_cost": 170,
+      "total_customer_value": 495,
+      "quantity_A": 35,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 31,
+      "E_customer_utility": 490,
+      "total_payment": 199,
+      "total_production_cost": 168,
+      "total_customer_value": 489,
+      "quantity_A": 31,
+      "quantity_B": 17,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 2,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 32,
+      "E_customer_utility": 489,
+      "total_payment": 200,
+      "total_production_cost": 168,
+      "total_customer_value": 489,
+      "quantity_A": 35,
+      "quantity_B": 9,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 33,
+      "E_customer_utility": 484,
+      "total_payment": 199,
+      "total_production_cost": 166,
+      "total_customer_value": 483,
+      "quantity_A": 28,
+      "quantity_B": 22,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 34,
+      "E_customer_utility": 483,
+      "total_payment": 200,
+      "total_production_cost": 166,
+      "total_customer_value": 483,
+      "quantity_A": 34,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 2,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 35,
+      "E_customer_utility": 478,
+      "total_payment": 199,
+      "total_production_cost": 164,
+      "total_customer_value": 477,
+      "quantity_A": 30,
+      "quantity_B": 17,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 6,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 36,
+      "E_customer_utility": 477,
+      "total_payment": 200,
+      "total_production_cost": 164,
+      "total_customer_value": 477,
+      "quantity_A": 34,
+      "quantity_B": 9,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 37,
+      "E_customer_utility": 472,
+      "total_payment": 199,
+      "total_production_cost": 162,
+      "total_customer_value": 471,
+      "quantity_A": 30,
+      "quantity_B": 16,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 38,
+      "E_customer_utility": 471,
+      "total_payment": 200,
+      "total_production_cost": 162,
+      "total_customer_value": 471,
+      "quantity_A": 33,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 39,
+      "E_customer_utility": 466,
+      "total_payment": 199,
+      "total_production_cost": 160,
+      "total_customer_value": 465,
+      "quantity_A": 34,
+      "quantity_B": 7,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 40,
+      "E_customer_utility": 465,
+      "total_payment": 200,
+      "total_production_cost": 160,
+      "total_customer_value": 465,
+      "quantity_A": 35,
+      "quantity_B": 5,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 41,
+      "E_customer_utility": 460,
+      "total_payment": 199,
+      "total_production_cost": 158,
+      "total_customer_value": 459,
+      "quantity_A": 33,
+      "quantity_B": 8,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 42,
+      "E_customer_utility": 459,
+      "total_payment": 200,
+      "total_production_cost": 158,
+      "total_customer_value": 459,
+      "quantity_A": 32,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 43,
+      "E_customer_utility": 454,
+      "total_payment": 199,
+      "total_production_cost": 156,
+      "total_customer_value": 453,
+      "quantity_A": 30,
+      "quantity_B": 13,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 44,
+      "E_customer_utility": 453,
+      "total_payment": 200,
+      "total_production_cost": 156,
+      "total_customer_value": 453,
+      "quantity_A": 29,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 45,
+      "E_customer_utility": 448,
+      "total_payment": 199,
+      "total_production_cost": 154,
+      "total_customer_value": 447,
+      "quantity_A": 31,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 6,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 46,
+      "E_customer_utility": 447,
+      "total_payment": 200,
+      "total_production_cost": 154,
+      "total_customer_value": 447,
+      "quantity_A": 31,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 47,
+      "E_customer_utility": 442,
+      "total_payment": 199,
+      "total_production_cost": 152,
+      "total_customer_value": 441,
+      "quantity_A": 29,
+      "quantity_B": 13,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 48,
+      "E_customer_utility": 441,
+      "total_payment": 200,
+      "total_production_cost": 152,
+      "total_customer_value": 441,
+      "quantity_A": 28,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 49,
+      "E_customer_utility": 436,
+      "total_payment": 199,
+      "total_production_cost": 150,
+      "total_customer_value": 435,
+      "quantity_A": 24,
+      "quantity_B": 22,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 50,
+      "E_customer_utility": 435,
+      "total_payment": 200,
+      "total_production_cost": 150,
+      "total_customer_value": 435,
+      "quantity_A": 30,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 51,
+      "E_customer_utility": 430,
+      "total_payment": 199,
+      "total_production_cost": 148,
+      "total_customer_value": 429,
+      "quantity_A": 29,
+      "quantity_B": 11,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 52,
+      "E_customer_utility": 429,
+      "total_payment": 200,
+      "total_production_cost": 148,
+      "total_customer_value": 429,
+      "quantity_A": 31,
+      "quantity_B": 7,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 53,
+      "E_customer_utility": 424,
+      "total_payment": 199,
+      "total_production_cost": 146,
+      "total_customer_value": 423,
+      "quantity_A": 24,
+      "quantity_B": 20,
+      "quantity_C": 5,
+      "price_A": 6,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 54,
+      "E_customer_utility": 423,
+      "total_payment": 200,
+      "total_production_cost": 146,
+      "total_customer_value": 423,
+      "quantity_A": 31,
+      "quantity_B": 6,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 55,
+      "E_customer_utility": 418,
+      "total_payment": 199,
+      "total_production_cost": 144,
+      "total_customer_value": 417,
+      "quantity_A": 17,
+      "quantity_B": 33,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 56,
+      "E_customer_utility": 417,
+      "total_payment": 200,
+      "total_production_cost": 144,
+      "total_customer_value": 417,
+      "quantity_A": 17,
+      "quantity_B": 33,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 57,
+      "E_customer_utility": 412,
+      "total_payment": 199,
+      "total_production_cost": 142,
+      "total_customer_value": 411,
+      "quantity_A": 26,
+      "quantity_B": 14,
+      "quantity_C": 5,
+      "price_A": 6,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 58,
+      "E_customer_utility": 411,
+      "total_payment": 200,
+      "total_production_cost": 142,
+      "total_customer_value": 411,
+      "quantity_A": 29,
+      "quantity_B": 8,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 59,
+      "E_customer_utility": 406,
+      "total_payment": 199,
+      "total_production_cost": 140,
+      "total_customer_value": 405,
+      "quantity_A": 19,
+      "quantity_B": 27,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 60,
+      "E_customer_utility": 405,
+      "total_payment": 200,
+      "total_production_cost": 140,
+      "total_customer_value": 405,
+      "quantity_A": 20,
+      "quantity_B": 25,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 2,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 61,
+      "E_customer_utility": 400,
+      "total_payment": 199,
+      "total_production_cost": 138,
+      "total_customer_value": 399,
+      "quantity_A": 28,
+      "quantity_B": 8,
+      "quantity_C": 5,
+      "price_A": 6,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 62,
+      "E_customer_utility": 399,
+      "total_payment": 200,
+      "total_production_cost": 138,
+      "total_customer_value": 399,
+      "quantity_A": 22,
+      "quantity_B": 20,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 63,
+      "E_customer_utility": 394,
+      "total_payment": 199,
+      "total_production_cost": 136,
+      "total_customer_value": 393,
+      "quantity_A": 24,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 6,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 64,
+      "E_customer_utility": 393,
+      "total_payment": 200,
+      "total_production_cost": 136,
+      "total_customer_value": 393,
+      "quantity_A": 25,
+      "quantity_B": 13,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 65,
+      "E_customer_utility": 388,
+      "total_payment": 199,
+      "total_production_cost": 134,
+      "total_customer_value": 387,
+      "quantity_A": 21,
+      "quantity_B": 20,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 66,
+      "E_customer_utility": 387,
+      "total_payment": 200,
+      "total_production_cost": 134,
+      "total_customer_value": 387,
+      "quantity_A": 21,
+      "quantity_B": 20,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 67,
+      "E_customer_utility": 382,
+      "total_payment": 199,
+      "total_production_cost": 132,
+      "total_customer_value": 381,
+      "quantity_A": 15,
+      "quantity_B": 31,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 68,
+      "E_customer_utility": 381,
+      "total_payment": 200,
+      "total_production_cost": 132,
+      "total_customer_value": 381,
+      "quantity_A": 17,
+      "quantity_B": 27,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 2,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 69,
+      "E_customer_utility": 376,
+      "total_payment": 199,
+      "total_production_cost": 130,
+      "total_customer_value": 375,
+      "quantity_A": 16,
+      "quantity_B": 28,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 70,
+      "E_customer_utility": 375,
+      "total_payment": 200,
+      "total_production_cost": 130,
+      "total_customer_value": 375,
+      "quantity_A": 10,
+      "quantity_B": 40,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 71,
+      "E_customer_utility": 370,
+      "total_payment": 199,
+      "total_production_cost": 128,
+      "total_customer_value": 369,
+      "quantity_A": 22,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 72,
+      "E_customer_utility": 369,
+      "total_payment": 200,
+      "total_production_cost": 128,
+      "total_customer_value": 369,
+      "quantity_A": 22,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 73,
+      "E_customer_utility": 364,
+      "total_payment": 199,
+      "total_production_cost": 126,
+      "total_customer_value": 363,
+      "quantity_A": 10,
+      "quantity_B": 38,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 74,
+      "E_customer_utility": 363,
+      "total_payment": 200,
+      "total_production_cost": 126,
+      "total_customer_value": 363,
+      "quantity_A": 20,
+      "quantity_B": 18,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 75,
+      "E_customer_utility": 358,
+      "total_payment": 199,
+      "total_production_cost": 124,
+      "total_customer_value": 357,
+      "quantity_A": 22,
+      "quantity_B": 13,
+      "quantity_C": 5,
+      "price_A": 6,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 2,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 76,
+      "E_customer_utility": 357,
+      "total_payment": 200,
+      "total_production_cost": 124,
+      "total_customer_value": 357,
+      "quantity_A": 19,
+      "quantity_B": 19,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 77,
+      "E_customer_utility": 352,
+      "total_payment": 199,
+      "total_production_cost": 122,
+      "total_customer_value": 351,
+      "quantity_A": 19,
+      "quantity_B": 18,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 6,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 78,
+      "E_customer_utility": 351,
+      "total_payment": 200,
+      "total_production_cost": 122,
+      "total_customer_value": 351,
+      "quantity_A": 13,
+      "quantity_B": 30,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 79,
+      "E_customer_utility": 346,
+      "total_payment": 199,
+      "total_production_cost": 120,
+      "total_customer_value": 345,
+      "quantity_A": 8,
+      "quantity_B": 39,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 6,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 80,
+      "E_customer_utility": 345,
+      "total_payment": 200,
+      "total_production_cost": 120,
+      "total_customer_value": 345,
+      "quantity_A": 5,
+      "quantity_B": 45,
+      "quantity_C": 5,
+      "price_A": 10,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 81,
+      "E_customer_utility": 340,
+      "total_payment": 199,
+      "total_production_cost": 118,
+      "total_customer_value": 339,
+      "quantity_A": 8,
+      "quantity_B": 38,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 82,
+      "E_customer_utility": 339,
+      "total_payment": 200,
+      "total_production_cost": 118,
+      "total_customer_value": 339,
+      "quantity_A": 11,
+      "quantity_B": 32,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 83,
+      "E_customer_utility": 334,
+      "total_payment": 199,
+      "total_production_cost": 116,
+      "total_customer_value": 333,
+      "quantity_A": 7,
+      "quantity_B": 39,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 3,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 84,
+      "E_customer_utility": 333,
+      "total_payment": 200,
+      "total_production_cost": 116,
+      "total_customer_value": 333,
+      "quantity_A": 11,
+      "quantity_B": 31,
+      "quantity_C": 5,
+      "price_A": 6,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 85,
+      "E_customer_utility": 328,
+      "total_payment": 199,
+      "total_production_cost": 114,
+      "total_customer_value": 327,
+      "quantity_A": 11,
+      "quantity_B": 30,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 86,
+      "E_customer_utility": 327,
+      "total_payment": 200,
+      "total_production_cost": 114,
+      "total_customer_value": 327,
+      "quantity_A": 17,
+      "quantity_B": 18,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 87,
+      "E_customer_utility": 322,
+      "total_payment": 199,
+      "total_production_cost": 112,
+      "total_customer_value": 321,
+      "quantity_A": 10,
+      "quantity_B": 31,
+      "quantity_C": 5,
+      "price_A": 6,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 88,
+      "E_customer_utility": 321,
+      "total_payment": 200,
+      "total_production_cost": 112,
+      "total_customer_value": 321,
+      "quantity_A": 19,
+      "quantity_B": 13,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 89,
+      "E_customer_utility": 316,
+      "total_payment": 199,
+      "total_production_cost": 110,
+      "total_customer_value": 315,
+      "quantity_A": 13,
+      "quantity_B": 24,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 90,
+      "E_customer_utility": 315,
+      "total_payment": 200,
+      "total_production_cost": 110,
+      "total_customer_value": 315,
+      "quantity_A": 13,
+      "quantity_B": 24,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 91,
+      "E_customer_utility": 310,
+      "total_payment": 199,
+      "total_production_cost": 108,
+      "total_customer_value": 309,
+      "quantity_A": 12,
+      "quantity_B": 25,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 92,
+      "E_customer_utility": 309,
+      "total_payment": 200,
+      "total_production_cost": 108,
+      "total_customer_value": 309,
+      "quantity_A": 19,
+      "quantity_B": 11,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 93,
+      "E_customer_utility": 304,
+      "total_payment": 199,
+      "total_production_cost": 106,
+      "total_customer_value": 303,
+      "quantity_A": 9,
+      "quantity_B": 30,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 94,
+      "E_customer_utility": 303,
+      "total_payment": 200,
+      "total_production_cost": 106,
+      "total_customer_value": 303,
+      "quantity_A": 10,
+      "quantity_B": 28,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 95,
+      "E_customer_utility": 298,
+      "total_payment": 199,
+      "total_production_cost": 104,
+      "total_customer_value": 297,
+      "quantity_A": 12,
+      "quantity_B": 23,
+      "quantity_C": 5,
+      "price_A": 10,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 96,
+      "E_customer_utility": 297,
+      "total_payment": 200,
+      "total_production_cost": 104,
+      "total_customer_value": 297,
+      "quantity_A": 12,
+      "quantity_B": 23,
+      "quantity_C": 5,
+      "price_A": 12,
+      "price_B": 2,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 97,
+      "E_customer_utility": 292,
+      "total_payment": 199,
+      "total_production_cost": 102,
+      "total_customer_value": 291,
+      "quantity_A": 9,
+      "quantity_B": 28,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 98,
+      "E_customer_utility": 291,
+      "total_payment": 200,
+      "total_production_cost": 102,
+      "total_customer_value": 291,
+      "quantity_A": 9,
+      "quantity_B": 28,
+      "quantity_C": 5,
+      "price_A": 5,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 99,
+      "E_customer_utility": 286,
+      "total_payment": 199,
+      "total_production_cost": 100,
+      "total_customer_value": 285,
+      "quantity_A": 12,
+      "quantity_B": 21,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 100,
+      "E_customer_utility": 285,
+      "total_payment": 200,
+      "total_production_cost": 100,
+      "total_customer_value": 285,
+      "quantity_A": 20,
+      "quantity_B": 5,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 8,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 101,
+      "E_customer_utility": 280,
+      "total_payment": 199,
+      "total_production_cost": 98,
+      "total_customer_value": 279,
+      "quantity_A": 10,
+      "quantity_B": 24,
+      "quantity_C": 5,
+      "price_A": 4,
+      "price_B": 6,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 102,
+      "E_customer_utility": 279,
+      "total_payment": 200,
+      "total_production_cost": 98,
+      "total_customer_value": 279,
+      "quantity_A": 10,
+      "quantity_B": 24,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 103,
+      "E_customer_utility": 274,
+      "total_payment": 199,
+      "total_production_cost": 96,
+      "total_customer_value": 273,
+      "quantity_A": 13,
+      "quantity_B": 17,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 104,
+      "E_customer_utility": 273,
+      "total_payment": 200,
+      "total_production_cost": 96,
+      "total_customer_value": 273,
+      "quantity_A": 13,
+      "quantity_B": 17,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 105,
+      "E_customer_utility": 268,
+      "total_payment": 199,
+      "total_production_cost": 94,
+      "total_customer_value": 267,
+      "quantity_A": 16,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 106,
+      "E_customer_utility": 267,
+      "total_payment": 200,
+      "total_production_cost": 94,
+      "total_customer_value": 267,
+      "quantity_A": 16,
+      "quantity_B": 10,
+      "quantity_C": 5,
+      "price_A": 10,
+      "price_B": 3,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 107,
+      "E_customer_utility": 262,
+      "total_payment": 199,
+      "total_production_cost": 92,
+      "total_customer_value": 261,
+      "quantity_A": 16,
+      "quantity_B": 9,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 4,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 108,
+      "E_customer_utility": 261,
+      "total_payment": 200,
+      "total_production_cost": 92,
+      "total_customer_value": 261,
+      "quantity_A": 18,
+      "quantity_B": 5,
+      "quantity_C": 5,
+      "price_A": 10,
+      "price_B": 2,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 6,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 109,
+      "E_customer_utility": 256,
+      "total_payment": 199,
+      "total_production_cost": 90,
+      "total_customer_value": 255,
+      "quantity_A": 13,
+      "quantity_B": 14,
+      "quantity_C": 5,
+      "price_A": 12,
+      "price_B": 2,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 110,
+      "E_customer_utility": 255,
+      "total_payment": 200,
+      "total_production_cost": 90,
+      "total_customer_value": 255,
+      "quantity_A": 13,
+      "quantity_B": 14,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 3,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 111,
+      "E_customer_utility": 250,
+      "total_payment": 199,
+      "total_production_cost": 88,
+      "total_customer_value": 249,
+      "quantity_A": 9,
+      "quantity_B": 21,
+      "quantity_C": 5,
+      "price_A": 7,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 112,
+      "E_customer_utility": 249,
+      "total_payment": 200,
+      "total_production_cost": 88,
+      "total_customer_value": 249,
+      "quantity_A": 5,
+      "quantity_B": 29,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 113,
+      "E_customer_utility": 244,
+      "total_payment": 199,
+      "total_production_cost": 86,
+      "total_customer_value": 243,
+      "quantity_A": 8,
+      "quantity_B": 22,
+      "quantity_C": 5,
+      "price_A": 12,
+      "price_B": 4,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 114,
+      "E_customer_utility": 243,
+      "total_payment": 200,
+      "total_production_cost": 86,
+      "total_customer_value": 243,
+      "quantity_A": 8,
+      "quantity_B": 22,
+      "quantity_C": 5,
+      "price_A": 10,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 115,
+      "E_customer_utility": 238,
+      "total_payment": 199,
+      "total_production_cost": 84,
+      "total_customer_value": 237,
+      "quantity_A": 11,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 7,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 116,
+      "E_customer_utility": 237,
+      "total_payment": 200,
+      "total_production_cost": 84,
+      "total_customer_value": 237,
+      "quantity_A": 8,
+      "quantity_B": 21,
+      "quantity_C": 5,
+      "price_A": 8,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 4,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 117,
+      "E_customer_utility": 232,
+      "total_payment": 199,
+      "total_production_cost": 82,
+      "total_customer_value": 231,
+      "quantity_A": 15,
+      "quantity_B": 6,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 4,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 3,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 118,
+      "E_customer_utility": 231,
+      "total_payment": 200,
+      "total_production_cost": 82,
+      "total_customer_value": 231,
+      "quantity_A": 5,
+      "quantity_B": 26,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 6,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 119,
+      "E_customer_utility": 226,
+      "total_payment": 199,
+      "total_production_cost": 80,
+      "total_customer_value": 225,
+      "quantity_A": 7,
+      "quantity_B": 21,
+      "quantity_C": 5,
+      "price_A": 9,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 3,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 9,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 120,
+      "E_customer_utility": 225,
+      "total_payment": 200,
+      "total_production_cost": 80,
+      "total_customer_value": 225,
+      "quantity_A": 10,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 10,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 121,
+      "E_customer_utility": 220,
+      "total_payment": 199,
+      "total_production_cost": 78,
+      "total_customer_value": 219,
+      "quantity_A": 10,
+      "quantity_B": 14,
+      "quantity_C": 5,
+      "price_A": 10,
+      "price_B": 6,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 122,
+      "E_customer_utility": 219,
+      "total_payment": 200,
+      "total_production_cost": 78,
+      "total_customer_value": 219,
+      "quantity_A": 10,
+      "quantity_B": 14,
+      "quantity_C": 5,
+      "price_A": 12,
+      "price_B": 5,
+      "price_C": 2,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 6,
+          "B": 4,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 123,
+      "E_customer_utility": 214,
+      "total_payment": 199,
+      "total_production_cost": 76,
+      "total_customer_value": 213,
+      "quantity_A": 9,
+      "quantity_B": 15,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 6,
+      "price_C": 2,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 5,
+          "B": 5,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 124,
+      "E_customer_utility": 213,
+      "total_payment": 200,
+      "total_production_cost": 76,
+      "total_customer_value": 213,
+      "quantity_A": 13,
+      "quantity_B": 7,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 6,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 9,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 125,
+      "E_customer_utility": 208,
+      "total_payment": 199,
+      "total_production_cost": 74,
+      "total_customer_value": 207,
+      "quantity_A": 12,
+      "quantity_B": 8,
+      "quantity_C": 5,
+      "price_A": 12,
+      "price_B": 5,
+      "price_C": 3,
+      "payments": [
+        199,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 8,
+          "B": 2,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 3,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    },
+    {
+      "environment_id": 1,
+      "epsilon": 0,
+      "sweep": "exact",
+      "constraint_met": true,
+      "P_sat": 1.0,
+      "E_supplier_utility": 126,
+      "E_customer_utility": 207,
+      "total_payment": 200,
+      "total_production_cost": 74,
+      "total_customer_value": 207,
+      "quantity_A": 7,
+      "quantity_B": 18,
+      "quantity_C": 5,
+      "price_A": 11,
+      "price_B": 6,
+      "price_C": 3,
+      "payments": [
+        200,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "contract_qty_schedule": [
+        {
+          "A": 3,
+          "B": 7,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 8,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        },
+        {
+          "A": 1,
+          "B": 1,
+          "C": 1
+        }
+      ]
+    }
+  ]
+}

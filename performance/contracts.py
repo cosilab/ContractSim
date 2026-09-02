@@ -6,6 +6,20 @@ import json
 from pathlib import Path
 
 
+def contract_id(contract_dir: str | Path) -> str:
+    """Return the configured stable ID, falling back to the directory name."""
+    path = Path(contract_dir)
+    try:
+        config = json.loads((path / "config.json").read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return path.name
+    except (OSError, json.JSONDecodeError) as exc:
+        config_path = path / "config.json"
+        raise ValueError(f"Cannot load contract config {config_path}: {exc}") from exc
+    value = config.get("instance_id") if isinstance(config, dict) else None
+    return value if isinstance(value, str) and value else path.name
+
+
 def contract_environment_id(contract_dir: str | Path) -> int:
     """Read the canonical environment ID from a contract's config."""
     path = Path(contract_dir) / "config.json"
@@ -60,4 +74,8 @@ def validate_contract_environment(
         )
 
 
-__all__ = ("contract_environment_id", "validate_contract_environment")
+__all__ = (
+    "contract_environment_id",
+    "contract_id",
+    "validate_contract_environment",
+)

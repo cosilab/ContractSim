@@ -15,6 +15,7 @@ from llm_utils.process_runner import (
     ProcessTermination,
     run_process_jobs,
 )
+from performance.contracts import contract_id
 
 
 ORCHESTRATION_DIR = Path(__file__).resolve().parent
@@ -23,6 +24,7 @@ WORKER = ORCHESTRATION_DIR / "worker.py"
 
 @dataclass(frozen=True)
 class PerformanceJob:
+    contract_id: str
     contract_dir: Path
     customer: str
     supplier: str
@@ -33,7 +35,7 @@ class PerformanceJob:
     @property
     def label(self) -> str:
         return (
-            f"{self.contract_dir.name}/customer-{self.customer}_"
+            f"{self.contract_id}/customer-{self.customer}_"
             f"supplier-{self.supplier}_seed-{self.seed}"
         )
 
@@ -59,13 +61,14 @@ def build_jobs(
 ) -> list[PerformanceJob]:
     jobs: list[PerformanceJob] = []
     for contract_dir in contract_dirs:
+        stable_contract_id = contract_id(contract_dir)
         for customer in customers:
             for supplier in suppliers:
                 for seed in seeds:
                     run_name = (
                         f"customer-{customer}_supplier-{supplier}_seed-{seed}"
                     )
-                    output_dir = experiment_dir / contract_dir.name / run_name
+                    output_dir = experiment_dir / stable_contract_id / run_name
                     command = (
                         sys.executable,
                         str(WORKER),
@@ -86,6 +89,7 @@ def build_jobs(
                     )
                     jobs.append(
                         PerformanceJob(
+                            contract_id=stable_contract_id,
                             contract_dir=contract_dir,
                             customer=customer,
                             supplier=supplier,

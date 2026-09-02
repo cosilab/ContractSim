@@ -30,7 +30,7 @@ from llm_utils.process_runner import (  # noqa: E402
     ProcessTermination,
     terminate_on_signals,
 )
-from performance.contracts import validate_contract_environment  # noqa: E402
+from performance.contracts import contract_id, validate_contract_environment  # noqa: E402
 from performance.baselines.customer import (  # noqa: E402
     CustomerRC,
     CustomerRCC,
@@ -47,6 +47,7 @@ from performance.logic import (  # noqa: E402
     supplier_decide_production,
     supplier_decide_purchases,
 )
+from performance.logic.performance import DISH_NAMES  # noqa: E402
 from performance.prompting import (  # noqa: E402
     GOAL_TREATMENT_CHOICES,
     build_prompts,
@@ -116,9 +117,16 @@ class _LLMCustomer:
     ) -> None:
         for dish, quantity in produced.items():
             self.delivered[dish] += quantity
+        produced_text = ", ".join(
+            f"{quantity} {DISH_NAMES[dish]}" for dish, quantity in produced.items()
+        )
+        delivered_text = ", ".join(
+            f"{quantity} {DISH_NAMES[dish]}"
+            for dish, quantity in self.delivered.items()
+        )
         self.agent.observe(
-            f"Week {week}: delivered {produced}; "
-            f"cumulative deliveries {self.delivered}."
+            f"Week {week}: delivered {produced_text}; "
+            f"cumulative deliveries {delivered_text}."
         )
         return None
 
@@ -163,12 +171,15 @@ class _LLMSupplier:
         self,
         game: Any,
         week: int,
+        *,
+        received: dict[str, int],
     ) -> tuple[dict[str, int], dict[str, str] | None]:
         try:
             production = supplier_decide_production(
                 game,
                 week,
                 self.agent,
+                received=received,
                 model=self.model,
                 record_llm_call=self.record_llm_call,
             )
@@ -217,6 +228,7 @@ def run_worker(args: argparse.Namespace) -> int:
         raise RuntimeError(f"Cannot load {contract_path}: {exc}") from exc
     config = _read_json(contract_dir / "config.json")
     terms = _read_json(contract_dir / "terms.json")
+    stable_contract_id = contract_id(contract_dir)
     environment = load_environment_metadata(args.env)
 
     llm_roles = [
@@ -283,7 +295,7 @@ def run_worker(args: argparse.Namespace) -> int:
         )
         if args.supplier in PROVIDERS
         else SUPPLIER_BASELINES[args.supplier](
-            contract_dir.name,
+            stable_contract_id,
             contract_dir,
             config,
             terms,
@@ -296,7 +308,7 @@ def run_worker(args: argparse.Namespace) -> int:
         metadata={
             "implementation": "Performance",
             "environment_id": args.env,
-            "contract_id": contract_dir.name,
+            "contract_id": stable_contract_id,
         },
     )
     with claim:
@@ -305,7 +317,7 @@ def run_worker(args: argparse.Namespace) -> int:
         run_config = {
             **environment,
             "implementation": "Performance",
-            "contract_id": contract_dir.name,
+            "contract_id": stable_contract_id,
             "contract_dir": str(contract_dir),
             "customer": args.customer,
             "supplier": args.supplier,

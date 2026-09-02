@@ -1,0 +1,59 @@
+{
+  "contingencies": [
+    "grim_trigger"
+  ],
+  "contingency_mode": "grim_trigger",
+  "contingency_params": {},
+  "contingency_variant": "grim_trigger",
+  "environment_id": 4,
+  "evaluation_environment_id": 4,
+  "evaluation_metrics": {
+    "E_customer_utility": 374.89551544189453,
+    "E_supplier_utility": 7.603421688079834,
+    "P_sat": 0.5486984848976135
+  },
+  "instance_id": "env-04_from-env-04_p050_grim_trigger",
+  "schema_version": 1,
+  "source_band": "p050",
+  "source_environment_id": 4,
+  "source_generation_metrics": {
+    "E_customer_utility": 374.89551544189453,
+    "E_supplier_utility": 7.603421688079834,
+    "P_sat": 0.5486984848976135,
+    "band_met": true,
+    "candidate": {
+      "payments": [
+        34,
+        5,
+        18,
+        66,
+        36,
+        31
+      ],
+      "prices": [
+        7,
+        4,
+        4
+      ],
+      "quantities": [
+        2,
+        4,
+        2
+      ]
+    },
+    "mutual_benefit_floors": {
+      "customer": 200.0,
+      "supplier": 0.0
+    },
+    "mutual_benefit_met": true,
+    "p_sat_band": {
+      "lower": 0.45,
+      "upper": 0.55,
+      "upper_inclusive": false
+    },
+    "satisfaction_threshold": 0.95,
+    "status": "accepted",
+    "target_p_sat": 0.5,
+    "welfare": 382.49893712997437
+  }
+}

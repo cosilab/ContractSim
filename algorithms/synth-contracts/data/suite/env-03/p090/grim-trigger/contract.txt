@@ -1,0 +1,16 @@
+==================================================
+  AGREED CONTRACT
+==================================================
+Parties: Customer and Caterer.
+Term: Weeks 1 through 11.
+Unit prices: Margherita Pizza $6; Pesto Pasta $5; Tomato Soup $3.
+Delivery obligations:
+Week 2: 4 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 4: 4 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 6: 4 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 8: 4 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+Week 10: 4 Margherita Pizzas, 2 Pesto Pastas, 2 Tomato Soups.
+A shortfall is the amount by which a production week's delivery falls below its delivery obligation.
+Payments: Week 1 $81; Week 3 $57; Week 5 $22; Week 7 $25; Week 9 $15; Week 11 $0.
+Termination: Except as modified by the clauses above, a violation by a party entitles the counterparty to cease all further performance immediately and permanently.
+==================================================

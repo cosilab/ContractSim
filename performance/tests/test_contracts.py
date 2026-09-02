@@ -8,6 +8,7 @@ from pathlib import Path
 
 from performance.contracts import (
     contract_environment_id,
+    contract_id,
     validate_contract_environment,
 )
 from performance.orchestration.run import _contract_dirs
@@ -20,7 +21,7 @@ def _write_contract(
     contingency_variant: str | None = None,
 ) -> Path:
     contract = root / name
-    contract.mkdir()
+    contract.mkdir(parents=True)
     (contract / "contract.txt").write_text("contract", encoding="utf-8")
     (contract / "terms.json").write_text("{}", encoding="utf-8")
     config = {"environment_id": environment_id}
@@ -46,6 +47,26 @@ class ContractEnvironmentTests(unittest.TestCase):
             _write_contract(root, "different", 4)
             args = Namespace(mode="batch", contracts_root=root)
             self.assertEqual(_contract_dirs(args, 2), [matching.resolve()])
+
+    def test_batch_discovers_nested_contracts(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            contract = _write_contract(
+                root / "env-02" / "p050",
+                "grim-trigger",
+                2,
+            )
+            config_path = contract / "config.json"
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            config["instance_id"] = "env-02_from-env-04_p050_grim_trigger"
+            config_path.write_text(json.dumps(config), encoding="utf-8")
+
+            args = Namespace(mode="batch", contracts_root=root)
+            self.assertEqual(_contract_dirs(args, 2), [contract.resolve()])
+            self.assertEqual(
+                contract_id(contract),
+                "env-02_from-env-04_p050_grim_trigger",
+            )
 
     def test_batch_excludes_only_the_two_hardcoded_variants(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

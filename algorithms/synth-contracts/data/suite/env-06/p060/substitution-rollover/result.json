@@ -1,0 +1,72 @@
+{
+  "contingencies": [
+    "substitution",
+    "rollover",
+    "grim_trigger"
+  ],
+  "contingency_mode": "rollover",
+  "contingency_params": {
+    "rollover": {
+      "max_deficit": 2
+    },
+    "substitution": {
+      "min_qty": {
+        "A": 1,
+        "B": 1,
+        "C": 1
+      }
+    }
+  },
+  "contingency_variant": "substitution_rollover",
+  "environment_id": 6,
+  "evaluation_environment_id": 6,
+  "evaluation_metrics": {
+    "E_customer_utility": 341.9070587158203,
+    "E_supplier_utility": 14.38945484161377,
+    "P_sat": 0.7973451614379883
+  },
+  "instance_id": "env-06_from-env-06_p060_substitution_rollover",
+  "schema_version": 1,
+  "source_band": "p060",
+  "source_environment_id": 6,
+  "source_generation_metrics": {
+    "E_customer_utility": 335.4609832763672,
+    "E_supplier_utility": 5.583085536956787,
+    "P_sat": 0.638468861579895,
+    "band_met": true,
+    "candidate": {
+      "payments": [
+        24,
+        51,
+        57,
+        9,
+        0,
+        49
+      ],
+      "prices": [
+        11,
+        5,
+        3
+      ],
+      "quantities": [
+        2,
+        2,
+        2
+      ]
+    },
+    "mutual_benefit_floors": {
+      "customer": 200.0,
+      "supplier": 0.0
+    },
+    "mutual_benefit_met": true,
+    "p_sat_band": {
+      "lower": 0.55,
+      "upper": 0.65,
+      "upper_inclusive": false
+    },
+    "satisfaction_threshold": 0.95,
+    "status": "accepted",
+    "target_p_sat": 0.6,
+    "welfare": 341.044068813324
+  }
+}

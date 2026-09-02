@@ -13,8 +13,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from pareto.f1_base_search import F1FrontierSearch
-from pareto.f1_common import (
+from pareto.generation.f1_base_search import F1FrontierSearch
+from pareto.generation.f1_common import (
     DEFAULT_ENVIRONMENT_ROOT,
     DEFAULT_INITIAL_CONTRACT_PATH,
     Contract,

@@ -224,6 +224,7 @@ def supplier_decide_production(
     week: int,
     agent: Any,
     *,
+    received: dict[str, int],
     model: Any = None,
     record_llm_call: Callable[..., None] | None = None,
 ) -> dict[str, int]:
@@ -233,7 +234,8 @@ def supplier_decide_production(
     cta = (
         f"── Production (Week {week} of {game.total_weeks}) ──\n"
         f"Balance: ${game.supplier_balance:.2f}\n"
-        f"Inventory: {_format_ingredients(game.inventory)}\n"
+        f"Order received: {_format_ingredients(received)}\n"
+        f"Updated inventory (after cap): {_format_ingredients(game.inventory)}\n"
         "Produce dishes using your current inventory.\n"
         f"Respond ONLY with JSON: {{{example}}}"
     )

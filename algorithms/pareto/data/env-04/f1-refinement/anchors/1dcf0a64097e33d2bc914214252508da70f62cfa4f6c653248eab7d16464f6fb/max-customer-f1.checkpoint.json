@@ -1,0 +1,324 @@
+{
+  "completed_points": [
+    {
+      "E_customer_utility": 274.9886016845703,
+      "E_supplier_utility": 108.53640747070312,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          50,
+          50,
+          35,
+          30,
+          20,
+          15
+        ],
+        "prices": [
+          13.0,
+          8.0,
+          6.0
+        ],
+        "quantity_schedule": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 106.53722381591797,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 274.9886016845703,
+      "sweep": "max-customer",
+      "trace": [
+        {
+          "E_customer_utility": 274.9886016845703,
+          "E_supplier_utility": 108.53640747070312,
+          "P_sat": 0.9998372793197632,
+          "evaluations": 133,
+          "iteration": 0,
+          "move": "pay_1_to_2_5",
+          "score": 274.9886016845703
+        },
+        {
+          "evaluations": 107,
+          "iteration": 1,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    },
+    {
+      "E_customer_utility": 274.9886016845703,
+      "E_supplier_utility": 108.56085968017578,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          50,
+          50,
+          35,
+          30,
+          20,
+          15
+        ],
+        "prices": [
+          13.0,
+          8.0,
+          6.0
+        ],
+        "quantity_schedule": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 108.53722381591797,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 274.9886016845703,
+      "sweep": "max-customer",
+      "trace": [
+        {
+          "E_customer_utility": 274.9886016845703,
+          "E_supplier_utility": 108.56085968017578,
+          "P_sat": 0.9998372793197632,
+          "evaluations": 107,
+          "iteration": 0,
+          "move": "move_A_r2_to_r4",
+          "score": 274.9886016845703
+        },
+        {
+          "evaluations": 94,
+          "iteration": 1,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    },
+    {
+      "E_customer_utility": 274.98370361328125,
+      "E_supplier_utility": 108.97167205810547,
+      "P_sat": 0.9998372793197632,
+      "candidate": {
+        "payments": [
+          60,
+          50,
+          30,
+          30,
+          15,
+          15
+        ],
+        "prices": [
+          13.0,
+          8.0,
+          6.0
+        ],
+        "quantity_schedule": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": false,
+      "epsilon": 110.53722381591797,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": -999890.7533442383,
+      "sweep": "max-customer",
+      "trace": [
+        {
+          "E_customer_utility": 274.98533630371094,
+          "E_supplier_utility": 108.9657974243164,
+          "P_sat": 0.9998372793197632,
+          "evaluations": 94,
+          "iteration": 0,
+          "move": "move_A_r1_to_r2",
+          "score": -999890.7592172393
+        },
+        {
+          "E_customer_utility": 274.98451232910156,
+          "E_supplier_utility": 108.96815490722656,
+          "P_sat": 0.9998372793197632,
+          "evaluations": 94,
+          "iteration": 1,
+          "move": "pay_5_to_1_5",
+          "score": -999890.7568605804
+        },
+        {
+          "E_customer_utility": 274.98370361328125,
+          "E_supplier_utility": 108.97167205810547,
+          "P_sat": 0.9998372793197632,
+          "evaluations": 94,
+          "iteration": 2,
+          "move": "pay_3_to_1_5",
+          "score": -999890.7533442383
+        },
+        {
+          "evaluations": 73,
+          "iteration": 3,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    }
+  ],
+  "config_fingerprint": "501f92e5a4689ce3d7973a0a23cb83784df75cd220ae4ece7ec5f3a65c10bf5f",
+  "current_best": null,
+  "current_starts": [],
+  "environment_fingerprint": "b552e860a1eb5f334078b3e01644a570566b4db0e01a1e66c171d708a4313796",
+  "epsilon_index": 3,
+  "initial_candidate": {
+    "payments": [
+      55,
+      45,
+      35,
+      30,
+      20,
+      15
+    ],
+    "prices": [
+      13.0,
+      8.0,
+      6.0
+    ],
+    "quantity_schedule": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ]
+  },
+  "schema_version": 2,
+  "start_index": 0,
+  "status": "complete",
+  "warm_start": {
+    "payments": [
+      60,
+      50,
+      30,
+      30,
+      15,
+      15
+    ],
+    "prices": [
+      13.0,
+      8.0,
+      6.0
+    ],
+    "quantity_schedule": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "accepted_final_record_ids": [
+    "env-12/run-1/anthropic_vs_anthropic/offer-0013"
+  ],
+  "anchor_evaluation": {
+    "E_customer_utility": 374.2725372314453,
+    "E_supplier_utility": 17.219520568847656,
+    "P_sat": 0.9891281723976135
+  },
+  "anchor_id": "1aaa796913f338c89effe479ab0c20243c3882b862cb9b7220cf39c2de098dcb",
+  "config": {
+    "coarse_iterations": 10,
+    "epsilon_grid": [
+      15.219520568847656,
+      17.219520568847656,
+      19.219520568847656
+    ],
+    "fine_iterations": 50,
+    "implementation_fingerprint": "8320f8e1d83bcb6a54bf73de38a204f0ec2984cce4c7f090654f0a461393f7d1",
+    "minimum_satisfaction": 0.95,
+    "number_of_starts": 1,
+    "payment_cap": 200,
+    "payment_floor": 100,
+    "payment_radius": 5,
+    "payment_weeks": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "price_radius": 1.0,
+    "production_weeks": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "prune_margin": 20.0,
+    "quantity_radius": 1,
+    "random_start_attempts": 80,
+    "refined_iterations": 12,
+    "satisfaction_threshold": 0.95,
+    "search_mode": "best",
+    "search_variant": "targeted-refinement",
+    "seed": 42,
+    "sweep": "max-customer"
+  },
+  "config_fingerprint": "ce9325f408147b0f74ad01e12d7454d1c3d5eed42071e8c6e8edee7bf54668ed",
+  "environment_axes": {
+    "caterer_capital": "cap40",
+    "customer_preference": "easy",
+    "operating_conditions": "baseline"
+  },
+  "environment_fingerprint": "cc15c835787a003998864b981d9161d527796de73193b72a7f4c8a49491c6eb7",
+  "environment_id": 6,
+  "environment_name": "env-06_baseline_easy_cap40",
+  "frontier": "F1",
+  "initial_candidate": {
+    "payments": [
+      95,
+      45,
+      30,
+      15,
+      10,
+      5
+    ],
+    "prices": [
+      10.0,
+      6.0,
+      4.0
+    ],
+    "quantity_schedule": [
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ]
+  },
+  "local_box_anchor": {
+    "payments": [
+      95,
+      45,
+      30,
+      15,
+      10,
+      5
+    ],
+    "prices": [
+      10.0,
+      6.0,
+      4.0
+    ],
+    "quantity_schedule": [
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ]
+  },
+  "points": [
+    {
+      "E_customer_utility": 374.5736389160156,
+      "E_supplier_utility": 18.73337745666504,
+      "P_sat": 0.9942165613174438,
+      "anchor_id": "1aaa796913f338c89effe479ab0c20243c3882b862cb9b7220cf39c2de098dcb",
+      "candidate": {
+        "payments": [
+          100,
+          50,
+          28,
+          10,
+          12,
+          0
+        ],
+        "prices": [
+          10.0,
+          6.0,
+          4.0
+        ],
+        "quantity_schedule": [
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 15.219520568847656,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 374.5736389160156,
+      "source": "refined",
+      "sweep": "max-customer",
+      "trace": [
+        {
+          "E_customer_utility": 374.53550720214844,
+          "E_supplier_utility": 17.1971378326416,
+          "P_sat": 0.9936538338661194,
+          "evaluations": 128,
+          "iteration": 0,
+          "move": "pay_6_to_2_5",
+          "score": 374.53550720214844
+        },
+        {
+          "E_customer_utility": 374.5673522949219,
+          "E_supplier_utility": 18.73236083984375,
+          "P_sat": 0.9942165613174438,
+          "evaluations": 102,
+          "iteration": 1,
+          "move": "move_A_r1_to_r4",
+          "score": 374.5673522949219
+        },
+        {
+          "E_customer_utility": 374.57130432128906,
+          "E_supplier_utility": 18.737884521484375,
+          "P_sat": 0.9942165613174438,
+          "evaluations": 90,
+          "iteration": 2,
+          "move": "pay_4_to_1_5",
+          "score": 374.57130432128906
+        },
+        {
+          "E_customer_utility": 374.5723571777344,
+          "E_supplier_utility": 18.735225677490234,
+          "P_sat": 0.9942165613174438,
+          "evaluations": 70,
+          "iteration": 3,
+          "move": "pay_3_to_5_1",
+          "score": 374.5723571777344
+        },
+        {
+          "E_customer_utility": 374.5736389160156,
+          "E_supplier_utility": 18.73337745666504,
+          "P_sat": 0.9942165613174438,
+          "evaluations": 65,
+          "iteration": 4,
+          "move": "pay_3_to_5_1",
+          "score": 374.5736389160156
+        },
+        {
+          "evaluations": 65,
+          "iteration": 5,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    },
+    {
+      "E_customer_utility": 374.5736389160156,
+      "E_supplier_utility": 18.73337745666504,
+      "P_sat": 0.9942165613174438,
+      "anchor_id": "1aaa796913f338c89effe479ab0c20243c3882b862cb9b7220cf39c2de098dcb",
+      "candidate": {
+        "payments": [
+          100,
+          50,
+          28,
+          10,
+          12,
+          0
+        ],
+        "prices": [
+          10.0,
+          6.0,
+          4.0
+        ],
+        "quantity_schedule": [
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 17.219520568847656,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 374.5736389160156,
+      "source": "refined",
+      "sweep": "max-customer",
+      "trace": [
+        {
+          "evaluations": 65,
+          "iteration": 0,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    },
+    {
+      "E_customer_utility": 374.52870178222656,
+      "E_supplier_utility": 19.30667495727539,
+      "P_sat": 0.9947372674942017,
+      "anchor_id": "1aaa796913f338c89effe479ab0c20243c3882b862cb9b7220cf39c2de098dcb",
+      "candidate": {
+        "payments": [
+          90,
+          45,
+          33,
+          20,
+          12,
+          0
+        ],
+        "prices": [
+          10.0,
+          6.0,
+          4.0
+        ],
+        "quantity_schedule": [
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 19.219520568847656,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 374.52870178222656,
+      "source": "refined",
+      "sweep": "max-customer",
+      "trace": [
+        {
+          "E_customer_utility": 374.5249481201172,
+          "E_supplier_utility": 19.320388793945312,
+          "P_sat": 0.9947372674942017,
+          "evaluations": 65,
+          "iteration": 0,
+          "move": "move_A_r3_to_r5",
+          "score": 374.5249481201172
+        },
+        {
+          "E_customer_utility": 374.5261688232422,
+          "E_supplier_utility": 19.315807342529297,
+          "P_sat": 0.9947372674942017,
+          "evaluations": 56,
+          "iteration": 1,
+          "move": "pay_1_to_3_5",
+          "score": 374.5261688232422
+        },
+        {
+          "E_customer_utility": 374.5273895263672,
+          "E_supplier_utility": 19.311185836791992,
+          "P_sat": 0.9947372674942017,
+          "evaluations": 63,
+          "iteration": 2,
+          "move": "pay_1_to_4_5",
+          "score": 374.5273895263672
+        },
+        {
+          "E_customer_utility": 374.52870178222656,
+          "E_supplier_utility": 19.30667495727539,
+          "P_sat": 0.9947372674942017,
+          "evaluations": 64,
+          "iteration": 3,
+          "move": "pay_2_to_4_5",
+          "score": 374.52870178222656
+        },
+        {
+          "evaluations": 64,
+          "iteration": 4,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    }
+  ],
+  "schema_version": 2,
+  "search_variant": "targeted-refinement",
+  "status": "complete"
+}

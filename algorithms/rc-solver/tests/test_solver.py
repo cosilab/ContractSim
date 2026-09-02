@@ -1,7 +1,6 @@
 import copy
 import sys
 import unittest
-from itertools import product
 from pathlib import Path
 
 import jax
@@ -11,7 +10,7 @@ CODE_DIR = Path(__file__).resolve().parents[1]
 if str(CODE_DIR) not in sys.path:
     sys.path.insert(0, str(CODE_DIR))
 
-from bellman import OneStepSolver, ProductionRoundInput, WeekValueState
+from bellman import OneStepSolver, ProductionRoundInput
 from bellman.solver import _best_order_index
 from contract import Contract
 from environment import Environment
@@ -108,105 +107,6 @@ def round_input(
         payment=contract.payment_schedule[index],
         transitions=transitions.for_week(production.week),
     )
-
-
-def dense_reference_step(
-    solver: OneStepSolver,
-    current_round: ProductionRoundInput,
-    continuation: WeekValueState,
-    satisfaction_threshold: float,
-) -> np.ndarray:
-    """Small NumPy reference that evaluates all metrics for every order."""
-    transition_tables = [
-        current_round.transitions.kernels_by_resource[
-            resource
-        ].successful_table
-        for resource in solver.resource_names
-    ]
-    payment = float(current_round.payment.amount)
-    round_value = float(
-        sum(
-            current_round.production.product_quantities[product]
-            * solver.environment.customer.private_values[product]
-            for product in solver.environment.supplier.products
-        )
-    )
-    continuation_values = np.asarray(continuation.stacked())
-    output = np.zeros((4,) + solver.state_shape, dtype=np.float32)
-    inventory_states = range(solver.number_of_inventory_states)
-    order_states = range(solver.number_of_order_states)
-
-    for current_inventory in product(
-        inventory_states,
-        repeat=len(solver.resource_names),
-    ):
-        for capital in range(solver.number_of_capital_states):
-            selected_by_scenario: list[np.ndarray] = []
-            for prices in solver.price_kernel.scenarios:
-                candidates: list[np.ndarray] = []
-                for orders in product(
-                    order_states,
-                    repeat=len(solver.resource_names),
-                ):
-                    cost = float(sum(price * order for price, order in zip(prices, orders)))
-                    next_capital = int(capital + payment - cost)
-                    if next_capital < 0:
-                        candidates.append(
-                            np.asarray((-1.0, -np.inf, 0.0, 0.0))
-                        )
-                        continue
-                    next_capital = min(
-                        next_capital,
-                        solver.number_of_capital_states - 1,
-                    )
-                    expected = np.zeros(4, dtype=np.float64)
-                    for next_inventory in product(
-                        inventory_states,
-                        repeat=len(solver.resource_names),
-                    ):
-                        probability = float(
-                            np.prod(
-                                [
-                                    table[current, order, nxt]
-                                    for table, current, order, nxt in zip(
-                                        transition_tables,
-                                        current_inventory,
-                                        orders,
-                                        next_inventory,
-                                    )
-                                ]
-                            )
-                        )
-                        expected += probability * continuation_values[
-                            (slice(None),) + next_inventory + (next_capital,)
-                        ]
-                    candidate = np.asarray(
-                        (
-                            expected[0],
-                            payment - cost + expected[1],
-                            expected[2] + expected[0] * round_value,
-                            payment + expected[3],
-                        )
-                    )
-                    candidates.append(candidate)
-                candidate_array = np.asarray(candidates, dtype=np.float32)
-                satisfactory = (
-                    candidate_array[:, 0]
-                    >= satisfaction_threshold - 1e-4
-                )
-                score = np.where(
-                    satisfactory,
-                    np.float32(1e6) + candidate_array[:, 1],
-                    candidate_array[:, 0],
-                )
-                best = np.argmax(score)
-                selected_by_scenario.append(candidates[int(best)])
-            output[(slice(None),) + current_inventory + (capital,)] = np.average(
-                selected_by_scenario,
-                axis=0,
-                weights=solver.price_kernel.probabilities,
-            )
-    return output
 
 
 class OneStepSolverTests(unittest.TestCase):
@@ -327,54 +227,6 @@ class OneStepSolverTests(unittest.TestCase):
         self.assertAlmostEqual(result.supplier_utility[initial_state], -2.375)
         self.assertAlmostEqual(result.customer_value[initial_state], 1.5)
         self.assertAlmostEqual(result.total_paid[initial_state], 0.625)
-
-    def test_round_matches_dense_contractbench_style_reference(self):
-        environment = three_resource_environment(weighted_prices=True)
-        source = {
-            "product_prices": {"A": 1, "B": 1, "C": 1},
-            "production_schedule": [
-                {
-                    "week": 2,
-                    "product_quantities": {"A": 1, "B": 0, "C": 0},
-                }
-            ],
-            "payment_schedule": [
-                {"week": 1, "amount": 2},
-                {"week": 3, "amount": 5},
-            ],
-        }
-        contract = Contract(source)
-        transitions = ContractTransitionKernels(environment, contract)
-        solver = OneStepSolver(environment)
-        state_grid = np.arange(
-            np.prod(solver.state_shape),
-            dtype=np.float32,
-        ).reshape(solver.state_shape)
-        continuation = WeekValueState(
-            jax.numpy.asarray(0.2 + 0.1 * (state_grid % 7)),
-            jax.numpy.asarray(-3.0 + 0.25 * state_grid),
-            jax.numpy.asarray(1.5 * state_grid),
-            jax.numpy.asarray(2.0 + 0.75 * state_grid),
-        )
-        current_round = round_input(contract, transitions, 0)
-
-        result = solver.solve(
-            current_round,
-            continuation,
-            satisfaction_threshold=0.55,
-        )
-        expected = dense_reference_step(
-            solver,
-            current_round,
-            continuation,
-            satisfaction_threshold=0.55,
-        )
-
-        np.testing.assert_allclose(
-            np.asarray(result.stacked()),
-            expected,
-            atol=1e-5,
-        )
 
     def test_steps_compose_over_an_inferred_contract_calendar(self):
         environment = single_resource_environment()

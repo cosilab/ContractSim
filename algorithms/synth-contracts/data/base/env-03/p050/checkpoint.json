@@ -1,0 +1,83 @@
+{
+  "completed_points": [
+    {
+      "E_customer_utility": 250.36904907226562,
+      "E_supplier_utility": 19.013051986694336,
+      "P_sat": 0.54912269115448,
+      "candidate": {
+        "payments": [
+          37,
+          35,
+          24,
+          28,
+          27,
+          49
+        ],
+        "prices": [
+          6,
+          5,
+          2
+        ],
+        "quantities": [
+          1,
+          6,
+          2
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 50.0,
+      "epsilon_role": "supplier",
+      "optimized_role": "customer",
+      "score": 269.38210105895996,
+      "sweep": "max-customer"
+    }
+  ],
+  "config_fingerprint": "b15836024cfb38c8603d7d6964e1c4bc75a74564cc5bad90839b3f761ce6150b",
+  "current_best": null,
+  "current_starts": [],
+  "environment_fingerprint": "9af6ccaa4e093675d317396a542d4f6d941bb4c08c7534b27e80e1ae54c975b2:79bcc561428f3b2c6d6c58448483df567fbf3ef68b1d9ce52efde844580e21c5",
+  "epsilon_index": 1,
+  "initial_candidate": {
+    "payments": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+    ],
+    "prices": [
+      10,
+      5,
+      3
+    ],
+    "quantities": [
+      2,
+      2,
+      2
+    ]
+  },
+  "schema_version": 2,
+  "start_index": 0,
+  "status": "complete",
+  "warm_start": {
+    "payments": [
+      37,
+      35,
+      24,
+      28,
+      27,
+      49
+    ],
+    "prices": [
+      6,
+      5,
+      2
+    ],
+    "quantities": [
+      1,
+      6,
+      2
+    ]
+  }
+}

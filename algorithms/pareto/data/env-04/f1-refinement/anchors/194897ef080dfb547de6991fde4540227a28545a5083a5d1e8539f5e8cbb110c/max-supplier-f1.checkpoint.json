@@ -1,0 +1,324 @@
+{
+  "completed_points": [
+    {
+      "E_customer_utility": 572.9198455810547,
+      "E_supplier_utility": 7.637938499450684,
+      "P_sat": 0.9857704043388367,
+      "candidate": {
+        "payments": [
+          150,
+          30,
+          10,
+          5,
+          0,
+          5
+        ],
+        "prices": [
+          7.0,
+          3.0,
+          2.0
+        ],
+        "quantity_schedule": [
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 571.8557586669922,
+      "epsilon_role": "customer",
+      "optimized_role": "supplier",
+      "score": 7.637938499450684,
+      "sweep": "max-supplier",
+      "trace": [
+        {
+          "E_customer_utility": 573.7605895996094,
+          "E_supplier_utility": 7.540886878967285,
+          "P_sat": 0.9915327429771423,
+          "evaluations": 111,
+          "iteration": 0,
+          "move": "move_A_r4_to_r5",
+          "score": 7.540886878967285
+        },
+        {
+          "E_customer_utility": 572.9328002929688,
+          "E_supplier_utility": 7.631540775299072,
+          "P_sat": 0.9858547449111938,
+          "evaluations": 98,
+          "iteration": 1,
+          "move": "pay_5_to_6_5",
+          "score": 7.631540775299072
+        },
+        {
+          "E_customer_utility": 572.9302825927734,
+          "E_supplier_utility": 7.635623931884766,
+          "P_sat": 0.9857704043388367,
+          "evaluations": 90,
+          "iteration": 2,
+          "move": "pay_4_to_1_5",
+          "score": 7.635623931884766
+        },
+        {
+          "E_customer_utility": 572.9198455810547,
+          "E_supplier_utility": 7.637938499450684,
+          "P_sat": 0.9857704043388367,
+          "evaluations": 70,
+          "iteration": 3,
+          "move": "pay_3_to_2_5",
+          "score": 7.637938499450684
+        },
+        {
+          "evaluations": 54,
+          "iteration": 4,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    },
+    {
+      "E_customer_utility": 576.5791473388672,
+      "E_supplier_utility": 2.8568825721740723,
+      "P_sat": 0.9766326546669006,
+      "candidate": {
+        "payments": [
+          150,
+          25,
+          10,
+          5,
+          0,
+          5
+        ],
+        "prices": [
+          7.0,
+          2.0,
+          2.0
+        ],
+        "quantity_schedule": [
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 573.8557586669922,
+      "epsilon_role": "customer",
+      "optimized_role": "supplier",
+      "score": 2.8568825721740723,
+      "sweep": "max-supplier",
+      "trace": [
+        {
+          "E_customer_utility": 576.5791473388672,
+          "E_supplier_utility": 2.8568825721740723,
+          "P_sat": 0.9766326546669006,
+          "evaluations": 54,
+          "iteration": 0,
+          "move": "price_B-1",
+          "score": 2.8568825721740723
+        },
+        {
+          "evaluations": 102,
+          "iteration": 1,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    },
+    {
+      "E_customer_utility": 576.5791473388672,
+      "E_supplier_utility": 2.8568825721740723,
+      "P_sat": 0.9766326546669006,
+      "candidate": {
+        "payments": [
+          150,
+          25,
+          10,
+          5,
+          0,
+          5
+        ],
+        "prices": [
+          7.0,
+          2.0,
+          2.0
+        ],
+        "quantity_schedule": [
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ]
+        ]
+      },
+      "constraint_met": true,
+      "epsilon": 575.8557586669922,
+      "epsilon_role": "customer",
+      "optimized_role": "supplier",
+      "score": 2.8568825721740723,
+      "sweep": "max-supplier",
+      "trace": [
+        {
+          "evaluations": 102,
+          "iteration": 0,
+          "move": null,
+          "status": "converged"
+        }
+      ]
+    }
+  ],
+  "config_fingerprint": "fc6158445610ee16150f4a040187a3f52dfd4f222d495db7ec1d8840c2175872",
+  "current_best": null,
+  "current_starts": [],
+  "environment_fingerprint": "b552e860a1eb5f334078b3e01644a570566b4db0e01a1e66c171d708a4313796",
+  "epsilon_index": 3,
+  "initial_candidate": {
+    "payments": [
+      145,
+      25,
+      15,
+      10,
+      5,
+      0
+    ],
+    "prices": [
+      7.0,
+      3.0,
+      2.0
+    ],
+    "quantity_schedule": [
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        5,
+        1,
+        1
+      ]
+    ]
+  },
+  "schema_version": 2,
+  "start_index": 0,
+  "status": "complete",
+  "warm_start": {
+    "payments": [
+      150,
+      25,
+      10,
+      5,
+      0,
+      5
+    ],
+    "prices": [
+      7.0,
+      2.0,
+      2.0
+    ],
+    "quantity_schedule": [
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        6,
+        1,
+        1
+      ]
+    ]
+  }
+}

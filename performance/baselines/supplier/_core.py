@@ -625,7 +625,14 @@ class SupplierBaseline:
             "pending_deduction": round(self.pending_deduction, 2),
         }
 
-    def decide_production(self, game: Any, week: int) -> tuple[dict[str, int], dict[str, Any]]:
+    def decide_production(
+        self,
+        game: Any,
+        week: int,
+        *,
+        received: dict[str, int] | None = None,
+    ) -> tuple[dict[str, int], dict[str, Any]]:
+        del received
         if self.baseline == "re":
             decision = _dish_zero()
             round_idx = self.production_week_to_idx[int(week)]
