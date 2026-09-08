@@ -345,7 +345,7 @@ def _contract_columns(parsed: ParsedContract) -> dict[str, Any]:
         "price_B": decimal_text(parsed.prices["B"]),
         "price_C": decimal_text(parsed.prices["C"]),
         "contingencies": ";".join(parsed.contingencies),
-        "contingency_count": len(parsed.contingencies),
+        "contingency_count": len([c for c in parsed.contingencies if c != "grim_trigger"]),
     }
     for week in PRODUCTION_WEEKS:
         row = parsed.deliveries.get(week, {})
