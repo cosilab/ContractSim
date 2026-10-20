@@ -22,7 +22,7 @@ keys/
 .env.*
 
 # Separate paper checkout
-/AAAI Paper/
+/Paper/
 
 # Results and analysis
 /results/
@@ -32,6 +32,6 @@ keys/
 !/analysis/negotiation/inferences.zip
 !/analysis/performance/inferences.zip
 /domain-robustness/runs/
-/global/
 /paper-stuff/
 /analysis/negotiation \copy/
+Docs/

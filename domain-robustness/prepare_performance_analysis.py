@@ -36,7 +36,7 @@ from analysis.performance.scripts.analyze_campaign import (  # noqa: E402
 
 
 DEFAULT_RESULTS_ROOT = PROJECT_ROOT / "results" / "performance-domain-robustness"
-DEFAULT_MAIN_RESULTS_ROOT = PROJECT_ROOT / "results" / "performance-main"
+DEFAULT_BASELINE_RESULTS_ROOT = DEFAULT_RESULTS_ROOT / "rational baselines"
 DEFAULT_OUTPUT_ROOT = (
     PROJECT_ROOT / "analysis" / "performance" / "inferences" / "domain-robustness"
 )
@@ -310,8 +310,8 @@ def main() -> int:
     parser.add_argument(
         "--baseline-results-root",
         type=Path,
-        default=DEFAULT_MAIN_RESULTS_ROOT,
-        help="main performance results containing the Env-5 baseline runs used for RCC regrets",
+        default=DEFAULT_BASELINE_RESULTS_ROOT,
+        help="Env-5 rational-baseline runs (seeds 42-44) used as RCC regret references",
     )
     parser.add_argument(
         "--contracts-root",

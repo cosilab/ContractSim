@@ -424,11 +424,17 @@ def _compliant_utility(
             )
             for row in summary.get("production_history", [])
         }
+        supplier_first = min(
+            (r["week"] for r in compliance["supplier"]["per_week"] if r["defected"]),
+            default=None,
+        )
         credited = 0.0
         for row in compliance["customer"]["per_week"]:
             week = int(row["week"])
             gain = value_by_payment_week.get(week, 0.0) - payments.get(week, 0.0)
-            credited += gain if row["compliant"] else min(gain, 0.0)
+            unilateral = supplier_first is None or week <= supplier_first
+            withheld = row["shortfall"] if unilateral else 0.0
+            credited += gain if row["compliant"] else min(gain - withheld, 0.0)
         return environment.customer_budget + credited
 
     credited = 0.0
