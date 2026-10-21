@@ -13,6 +13,7 @@ performance in stochastic contracting environments.
 - `algorithms/rc-solver/`: exact JAX dynamic-programming solver for contract value under each contingency type.
 - `algorithms/pareto/`: generates and merges F1/F2 Pareto frontiers over contract terms.
 - `algorithms/synth-contracts/`: generates the synthetic performance-ready contract and policy suite.
+- `algorithms/concession-negotiation/`: heuristic concession-negotiation baseline whose contracts are compared against the LLM contracts and Pareto frontiers.
 - `analysis/`: parses, solves, and aggregates negotiation and performance run data into campaign statistics.
 - `envs/`: the six resolved benchmark environments and their model-facing prompt contexts.
 - `llm_utils/`: shared provider, agent, prompting, tracing, and process helpers used across the codebase.
